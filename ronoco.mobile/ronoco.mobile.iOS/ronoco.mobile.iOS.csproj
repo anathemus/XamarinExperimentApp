@@ -162,4 +162,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </ImageAsset>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\findSavingsFast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\getSolidAdvice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\trackYourCoverages.jpg" />
+  </ItemGroup>
 </Project>

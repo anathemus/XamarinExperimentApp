@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ronoco.mobile.view;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace ronoco.mobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            App.Current.MainPage = new LaunchScreen();
         }
 
         protected override void OnStart()

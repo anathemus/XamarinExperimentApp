@@ -157,4 +157,9 @@
       <Name>ronoco.mobile</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\launchscreenimg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </ImageAsset>
+  </ItemGroup>
 </Project>

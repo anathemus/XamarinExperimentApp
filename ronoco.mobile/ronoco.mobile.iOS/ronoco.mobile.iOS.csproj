@@ -160,6 +160,7 @@
   <ItemGroup>
     <ImageAsset Include="Resources\launchscreenimg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>

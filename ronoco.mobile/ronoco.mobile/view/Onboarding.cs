@@ -11,11 +11,17 @@ namespace ronoco.mobile.view
 	{
 		public Onboarding ()
 		{
-			Content = new StackLayout {
-				Children = {
-					new Label { Text = "Welcome to Xamarin.Forms!" }
-				}
-			};
+            OnboardingCarousel carousel = new OnboardingCarousel();
+
+            Content = new StackLayout
+            {
+                BackgroundColor = Color.White,
+
+                Children =
+                {
+                    carousel
+                }
+            };
 		}
 	}
 }

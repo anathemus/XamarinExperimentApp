@@ -1,4 +1,7 @@
 ﻿using ronoco.mobile.view;
+using System;
+using System.Diagnostics;
+using System.Threading.Tasks;
 using System.Timers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -8,10 +11,10 @@ namespace ronoco.mobile
 {
     public partial class App : Application
     {
+        //private NavigationPage launchScreen = new LaunchScreen();
         public App()
         {
             InitializeComponent();
-
             App.Current.MainPage = new LaunchScreen();
             Timer timer = new Timer();
             timer.Interval = 4000;
@@ -20,12 +23,28 @@ namespace ronoco.mobile
 
             timer.Elapsed += Timer_Elapsed;
 
+            void Timer_Elapsed(object sender, ElapsedEventArgs e)
+            {
+                Current.MainPage = new Onboarding();
+            }
         }
 
-        private void Timer_Elapsed(object sender, ElapsedEventArgs e)
-        {
-            App.Current.MainPage = new Onboarding();
-        }
+        //    timer.Elapsed += Timer_Elapsed();
+        //    public ela ElapsedEventHandler ElapsedHandler;
+
+        //}
+
+        //private ElapsedEventHandler Timer_Elapsed(object sender, ElapsedEventArgs e)
+        //{
+        //    ElapsedEventHandler handler = sender.ElapsedHandler;
+        //    launchScreen.Navigation.PopAsync();
+        //    launchScreen.Navigation.PushAsync(new NavigationPage(new Onboarding()));
+
+        //    if (handler != null)
+        //    {
+        //        return handler(this, e);
+        //    }
+        //}
 
         protected override void OnStart()
         {

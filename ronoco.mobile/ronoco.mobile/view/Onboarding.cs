@@ -7,45 +7,22 @@ using ronoco.mobile.model;
 
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
+using ronoco.mobile.viewmodel;
 
 namespace ronoco.mobile.view
 {
-	public class Onboarding : ContentPage
+	public class Onboarding : ContentView
 	{
-        public Onboarding()
+        public ObservableCollection<ContentView> Onboarding()
         {
-            ObservableCollection<Image> collection = new ObservableCollection<Image>();
-            OnboardingCarouselImageCollector.OnboardingImageCollector(collection);
-            var onboardingPageOne = new OnboardingCarouselContent();
-            var onboardingPageTwo = new OnboardingCarouselContent();
-            var onboardingPageThree = new OnboardingCarouselContent();
+            CarouselItemsSource itemsSource = new CarouselItemsSource();
+            CarouselItemTemplate itemTemplate = new CarouselItemTemplate();
 
-            onboardingPageOne.Title = Constants.ONBOARDING_CAROUSEL_ONE_HEADER_TXT;
-            onboardingPageOne.Description = Constants.ONBOARDING_CAROUSEL_ONE_DESCRIPTION_TXT;
-            onboardingPageOne.ImageSource = collection.ElementAt(0);
-
-            onboardingPageOne.Title = Constants.ONBOARDING_CAROUSEL_TWO_HEADER_TXT;
-            onboardingPageOne.Description = Constants.ONBOARDING_CAROUSEL_TWO_DESCRIPTION_TXT;
-            onboardingPageOne.ImageSource = collection.ElementAt(1);
-
-            onboardingPageOne.Title = Constants.ONBOARDING_CAROUSEL_THREE_HEADER_TXT;
-            onboardingPageOne.Description = Constants.ONBOARDING_CAROUSEL_THREE_DESCRIPTION_TXT;
-            onboardingPageOne.ImageSource = collection.ElementAt(2);
-
-            var pages = new ObservableCollection<OnboardingCarouselContent>();
-            pages.Add(onboardingPageOne);
-            pages.Add(onboardingPageTwo);
-            pages.Add(onboardingPageThree);
-
-            var carouselView = new OnboardingCarousel(pages);
-
-            Content = new StackLayout
+            ContentView view1 = new ContentView
             {
-                Children =
-                {
-                    carouselView
-                }
+               
             };
+
         }
 	}
 }

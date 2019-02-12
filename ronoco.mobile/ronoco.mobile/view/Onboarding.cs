@@ -11,18 +11,13 @@ using ronoco.mobile.viewmodel;
 
 namespace ronoco.mobile.view
 {
-	public class Onboarding : ContentView
+	public class Onboarding : ContentPage
 	{
-        public ObservableCollection<ContentView> Onboarding()
+        public Onboarding()
         {
-            CarouselItemsSource itemsSource = new CarouselItemsSource();
-            CarouselItemTemplate itemTemplate = new CarouselItemTemplate();
-
-            ContentView view1 = new ContentView
-            {
-               
-            };
-
+            OnboardingCarousel carousel = new OnboardingCarousel();
+            carousel.RaiseChild(carousel);
+            Content = carousel.Content;
         }
 	}
 }

@@ -19,7 +19,6 @@
     <Compile Remove="model\Constants.cs" />
     <Compile Remove="model\OnboardingCarouselContent.cs" />
     <Compile Remove="model\OnboardingCarouselImageCollector.cs" />
-    <Compile Remove="viewmodel\OnboardingCarousel.cs" />
     <Compile Remove="viewmodel\OnboardingDataTemplate.cs" />
   </ItemGroup>
 

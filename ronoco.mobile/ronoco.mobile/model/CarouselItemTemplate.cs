@@ -5,47 +5,49 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.model
 {
-    class CarouselItemTemplate : DataTemplate
+    class CarouselItemTemplate : RelativeLayout
     {
         public string HeaderText { get; set; }
         public string DescriptionText { get; set; }
-        public ImageSource ImageSourceString { get; set; }
+        public string ImageSourceString { get; set; }
 
-        public DataTemplate CarouselLayout(CarouselItemTemplate pageItems)
+        public RelativeLayout CarouselTemplate(ItemsSource pageItems)
         {
-            DataTemplate dataTemplate = new DataTemplate
-            (() =>
+            // IMPORTANT NOTE! When creating attributes for template, it is not enough to instantiate!
+            // The attributes must be initialized with at least one property to be recognized
+            // otherwise they appear NULL
+            Image image = new Image
+            { Source = ImageSource.FromFile(ImageSourceString) };
+
+            Label header = new Label
             {
-                Image image = new Image();
-                image.Source.SetBinding(Image.SourceProperty, "ImageSourceString");
+                FontFamily = "SFUIDisplay-Medium",
+                FontSize = 26,
+                Text = HeaderText
+            };
 
-                Label header = new Label();
-                header.FontFamily = "SFUIDisplay-Medium";
-                header.FontSize = 26;
-                header.SetBinding(Label.TextProperty, "HeaderText");
+            Label description = new Label
+            {
+                FontFamily = "SFUIText-Medium",
+                FontSize = 12,
+                Text = DescriptionText
+            };
 
+            RelativeLayout carouselLayout = new RelativeLayout();
+            carouselLayout.Children.Add(image, Constraint.RelativeToParent((parent) =>
+            {
+                return parent.Width * 0.1203125;
+            }), Constraint.Constant(0));
+            carouselLayout.Children.Add(header, Constraint.Constant(0), Constraint.RelativeToView(image, (parent, sibling) =>
+            {
+                return sibling.Height;
+            }));
+            carouselLayout.Children.Add(description, Constraint.Constant(0), Constraint.RelativeToView(header, (parent, sibling) =>
+            {
+                return sibling.Y + sibling.Height;
+            }));
 
-                Label description = new Label();
-                description.FontFamily = "SFUIText-Medium";
-                description.FontSize = 12;
-                description.SetBinding(Label.TextProperty, "DescriptionText");
-
-                return new ContentPage
-                {
-                Content =
-
-                    new StackLayout
-                    {
-                        Children =
-                        {
-                            image,
-                            header,
-                            description
-                        }
-                    }
-                };
-            });
-            return dataTemplate;
+            return carouselLayout;
         }
     }
 }

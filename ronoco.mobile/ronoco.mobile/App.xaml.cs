@@ -1,4 +1,5 @@
 ﻿using ronoco.mobile.view;
+using ronoco.mobile.viewmodel;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -11,7 +12,6 @@ namespace ronoco.mobile
 {
     public partial class App : Application
     {
-        //private NavigationPage launchScreen = new LaunchScreen();
         public App()
         {
             InitializeComponent();
@@ -21,12 +21,12 @@ namespace ronoco.mobile
             timer.Enabled = true;
             timer.AutoReset = false;
 
-            timer.Elapsed += Timer_Elapsed;
+            timer.Elapsed += Timer_Elapsed;            
+        }
 
-            void Timer_Elapsed(object sender, ElapsedEventArgs e)
-            {
-                Current.MainPage = new Onboarding();
-            }
+        void Timer_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            App.Current.MainPage = new Onboarding();
         }
 
         //    timer.Elapsed += Timer_Elapsed();

@@ -8,7 +8,6 @@ namespace ronoco.mobile.model
 {
     public class CarouselItemsSource
     {
-
         public ObservableCollection<ItemsSource> AllItems()
         {
             ObservableCollection<ItemsSource> items = new ObservableCollection<ItemsSource>();

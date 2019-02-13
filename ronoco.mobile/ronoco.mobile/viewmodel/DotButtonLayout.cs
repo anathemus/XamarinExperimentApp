@@ -11,7 +11,8 @@ namespace ronoco.mobile.viewmodel
     {
         //This array will hold the buttons
         public DotButton[] dots;
-        public DotButtonsLayout(int dotCount, Color dotColor, int dotSize)
+
+        public DotButtonsLayout(int dotCount, Color dotColor, int dotSize, int index)
         {
             //Create as many buttons as desired.
             dots = new DotButton[dotCount];
@@ -36,7 +37,7 @@ namespace ronoco.mobile.viewmodel
                 dots[i].layout = this;
                 Children.Add(dots[i]);
             }
-            dots[0].Opacity = 1;
+            dots[index].Opacity = 1;
         }
     }
 }

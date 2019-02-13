@@ -11,8 +11,26 @@ namespace ronoco.mobile.viewmodel
 {
     public class OnboardingCarousel : ContentView
     {
-        private int index = 0;
+        private int index;
         private int itemsSourceCount = 0;
+        public OnboardingCarousel(int index)
+        {
+            SetIndex(index);
+            CarouselItemsSource carouselItems = new CarouselItemsSource();
+            ObservableCollection<ItemsSource> itemsSource = carouselItems.AllItems();
+            CarouselItemTemplate itemTemplate = new CarouselItemTemplate();
+
+            itemTemplate.ImageSourceString = itemsSource.ElementAt(index).ImageSourceString;
+            itemTemplate.HeaderText = itemsSource.ElementAt(index).HeaderText;
+            itemTemplate.DescriptionText = itemsSource.ElementAt(index).DescriptionText;
+
+            StackLayout layout = new StackLayout();
+            itemsSourceCount = itemsSource.Count;
+            layout = itemTemplate.CarouselTemplate(itemsSource[index], GetIndex());
+
+            Content = layout;
+        }
+
         public OnboardingCarousel()
         {
             CarouselItemsSource carouselItems = new CarouselItemsSource();
@@ -25,49 +43,24 @@ namespace ronoco.mobile.viewmodel
 
             RelativeLayout layout = new RelativeLayout();
             itemsSourceCount = itemsSource.Count;
-            layout = itemTemplate.CarouselTemplate(itemsSource[index]);
+            layout = itemTemplate.CarouselTemplate(itemsSource[index], GetIndex());
 
-            SwipeGestureRecognizer leftSwipe = new SwipeGestureRecognizer { Direction = SwipeDirection.Left };
-            leftSwipe.Swiped += OnSwiped;
-            SwipeGestureRecognizer rightSwipe = new SwipeGestureRecognizer { Direction = SwipeDirection.Right };
-            rightSwipe.Swiped += OnSwiped;
-
-            this.GestureRecognizers.Add(leftSwipe);
-            this.GestureRecognizers.Add(rightSwipe);
-            this.Content = layout;
+            Content = layout;
         }
 
-        private void OnSwiped(object sender, SwipedEventArgs e)
+        public void SetIndex(int index)
         {
-            switch (e.Direction)
-            {
-                case SwipeDirection.Right:
-                    if (index < itemsSourceCount - 1)
-                    {
-                        index++;
-                    }
-                    else
-                    {
-                        index = 0;
-                    }
-                    break;
-                case SwipeDirection.Left:
-                    if (index > 0)
-                    {
-                        index--;
-                    }
-                    else
-                    {
-                        index = itemsSourceCount - 1;
-                    }
-                    break;
-                case SwipeDirection.Up:
-                    break;
-                case SwipeDirection.Down:
-                    break;
-                default:
-                    break;
-            }
+            this.index = index;
+        }
+
+        public int GetIndex()
+        {
+            return this.index;
+        }
+
+        public int GetItemsSourceCount()
+        {
+            return this.itemsSourceCount;
         }
     }
 }

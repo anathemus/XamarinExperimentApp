@@ -21,50 +21,9 @@ namespace ronoco.mobile.view
         {
             this.index = index;
             this.carousel = carousel;
-            carousel = new OnboardingCarousel(index);
-            SwipeReader swipeReader = new SwipeReader { Content = carousel };
-            swipeReader.Swipe += (sender, e) => OnSwiped(sender, e);
+            carousel = new OnboardingCarousel();
 
-            Content = swipeReader;
-        }
-
-
-        public void OnSwiped(object sender, SwipedEventArgs e)
-        {
-            //index = carousel.GetIndex();
-
-            switch (e.Direction)
-            {
-                case SwipeDirection.Right:
-                    if (index > 0)
-                    {
-                        carousel.SetIndex(index--);
-                    }
-                    else
-                    {
-                        index = carousel.GetItemsSourceCount() - 1;
-                        carousel.SetIndex(index);
-                    }
-                    App.Current.MainPage = new Onboarding(index, carousel);
-                    break;
-                case SwipeDirection.Left:
-                    if (index < carousel.GetItemsSourceCount() - 1)
-                    {
-                        carousel.SetIndex(index++);
-                    }
-                    else
-                    {
-                        carousel.SetIndex(index = 0);
-                    }
-                    App.Current.MainPage = new Onboarding(index, carousel);
-                    break;
-                case SwipeDirection.Up:
-                    break;
-                case SwipeDirection.Down:
-                    break;
-                default:
-                    break;
-            }
+            Content = carousel;
         }
     }
 }

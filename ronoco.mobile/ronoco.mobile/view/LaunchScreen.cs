@@ -15,11 +15,13 @@ namespace ronoco.mobile.view
 		{
             Image launchScreenImage = new Image();
             launchScreenImage.Source = ImageSource.FromFile("launchscreenimg.png");
-            launchScreenImage.VerticalOptions = LayoutOptions.StartAndExpand;
+            launchScreenImage.VerticalOptions = LayoutOptions.CenterAndExpand;
+            launchScreenImage.HorizontalOptions = LayoutOptions.CenterAndExpand;
             StackLayout stackLayout = new StackLayout
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.White,
 
                 Children =
                 {

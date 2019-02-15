@@ -31,23 +31,6 @@ namespace ronoco.mobile
             App.Current.MainPage = onboarding;
         }
 
-        //    timer.Elapsed += Timer_Elapsed();
-        //    public ela ElapsedEventHandler ElapsedHandler;
-
-        //}
-
-        //private ElapsedEventHandler Timer_Elapsed(object sender, ElapsedEventArgs e)
-        //{
-        //    ElapsedEventHandler handler = sender.ElapsedHandler;
-        //    launchScreen.Navigation.PopAsync();
-        //    launchScreen.Navigation.PushAsync(new NavigationPage(new Onboarding()));
-
-        //    if (handler != null)
-        //    {
-        //        return handler(this, e);
-        //    }
-        //}
-
         protected override void OnStart()
         {
             // Handle when your app starts

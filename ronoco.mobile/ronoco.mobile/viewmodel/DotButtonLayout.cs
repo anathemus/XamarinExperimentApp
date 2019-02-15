@@ -11,8 +11,9 @@ namespace ronoco.mobile.viewmodel
     {
         //This array will hold the buttons
         public DotButton[] dots;
+        private int opacityIndex = 1;
 
-        public DotButtonsLayout(int dotCount, Color dotColor, int dotSize, int index)
+        public DotButtonsLayout(int dotCount, Color dotColor, int dotSize)
         {
             //Create as many buttons as desired.
             dots = new DotButton[dotCount];
@@ -28,6 +29,7 @@ namespace ronoco.mobile.viewmodel
                 {
                     HeightRequest = dotSize,
                     WidthRequest = dotSize,
+                    CornerRadius = 45,
                     BackgroundColor = dotColor,
                     //All buttons except the first one will get an opacity
                     //of 0.5 to visualize the first one is selected.
@@ -37,7 +39,12 @@ namespace ronoco.mobile.viewmodel
                 dots[i].layout = this;
                 Children.Add(dots[i]);
             }
-            dots[index].Opacity = 1;
+            dots[opacityIndex].Opacity = 1;
+        }
+
+        public void SetOpacityIndex(int opacity)
+        {
+            this.opacityIndex = opacity;
         }
     }
 }

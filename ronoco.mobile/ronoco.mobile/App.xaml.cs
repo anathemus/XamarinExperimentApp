@@ -26,9 +26,9 @@ namespace ronoco.mobile
 
         void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            OnboardingCarousel carousel = new OnboardingCarousel();
-            Onboarding onboarding = new Onboarding(0, carousel);
-            App.Current.MainPage = onboarding;
+            OnboardingCarouselPage carousel = new OnboardingCarouselPage();
+            // Onboarding onboarding = new Onboarding(0, carousel);
+            App.Current.MainPage.Navigation.PushModalAsync(carousel, true);
         }
 
         protected override void OnStart()

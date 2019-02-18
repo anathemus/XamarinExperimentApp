@@ -14,16 +14,26 @@ namespace ronoco.mobile.view
 {
 	public class Onboarding : ContentPage
 	{
-        
-        private OnboardingCarousel carousel;
         private int index;
-        public Onboarding(int index, OnboardingCarousel carousel)
+        public Onboarding()
         {
-            this.index = index;
-            this.carousel = carousel;
-            carousel = new OnboardingCarousel();
+            OnboardingCarouselPage carousel = new OnboardingCarouselPage();
+            this.index = carousel.CurrentPage.TabIndex;
+            OnboardingTemplate template = new OnboardingTemplate();
+            int itemsSource = new OnboardingItemsSource().AllItems().Count();
+            template.SetSlideIndex(index);
+            template.SetItemsSourceCount(itemsSource);
 
-            Content = carousel;
+            Grid onboardingGrid = new Grid();
+            onboardingGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            onboardingGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+
+            onboardingGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+            // onboardingGrid.Children.Add(carousel.OnboardingCarousel(), 0, 0);
+            onboardingGrid.Children.Add(template, 0, 0);
+
+            Content = onboardingGrid;
         }
     }
 }

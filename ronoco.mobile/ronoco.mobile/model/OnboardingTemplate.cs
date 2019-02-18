@@ -8,8 +8,6 @@ namespace ronoco.mobile.model
 {
     class OnboardingTemplate : ContentView
     {
-        // FlexLayout to animate swiping "slides"
-        private OnboardingSlides slides { get; set; }
         private int slideIndex { get; set; }
         private int itemsSourceCount { get; set; }
 
@@ -21,8 +19,6 @@ namespace ronoco.mobile.model
             // The attributes must be initialized with at least one property to be recognized
             // otherwise they appear NULL
             Grid carouselLayout = new Grid();
-
-            slides = new OnboardingSlides();
 
             DotButtonsLayout buttonsLayout = new DotButtonsLayout(itemsSourceCount, Color.FromRgb(70, 120, 200), 8);
             buttonsLayout.SetOpacityIndex(slideIndex);
@@ -87,7 +83,6 @@ namespace ronoco.mobile.model
                 BorderWidth = 1
             };
 
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(344, GridUnitType.Absolute) });
             carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
             carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(32, GridUnitType.Absolute) });
             carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
@@ -103,12 +98,9 @@ namespace ronoco.mobile.model
 
             carouselLayout.BackgroundColor = Color.White;
 
-            var carouselSlides = slides.OnboardingCarouselSlides();
-
-
             // must use baseclass Grid to SetColumnSpan, cannot use instantiated object
-            carouselLayout.Children.Add(carouselSlides, 0, 0);
-            Grid.SetColumnSpan(carouselSlides, 3);
+            
+            // TODO: Instead of adding CarouselPage to this grid, add this grid to the CarouselPage
             carouselLayout.Children.Add(buttonsLayout, 0, 1);
             Grid.SetColumnSpan(buttonsLayout, 3);
 

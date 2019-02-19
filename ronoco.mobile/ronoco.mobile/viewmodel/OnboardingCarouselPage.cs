@@ -9,13 +9,13 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    public class OnboardingCarouselPage : CarouselPage
+    public class OnboardingCarouselView : CarouselPage
     {
         public CarouselPage OnboardingCarousel()
         {
             CarouselPage carouselPage = new CarouselPage();
-            carouselPage.ItemsSource = new OnboardingItemsSource().AllItems();
-            carouselPage.ItemTemplate = new OnboardingSlides().carouselTemplate;
+            carouselPage.ItemsSource = new OnboardingItemsSource().AllItems;
+            // carouselPage.ItemTemplate = new OnboardingSlides();
             return carouselPage;
         }
     }

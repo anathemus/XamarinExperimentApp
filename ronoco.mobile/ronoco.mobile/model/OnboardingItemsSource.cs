@@ -2,39 +2,65 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 
-namespace ronoco.mobile.model
+namespace ronoco.mobile.viewmodel
 {
-    public class OnboardingItemsSource : ItemsSource
+    public class OnboardingItemsSource
     {
-        public ObservableCollection<ItemsSource> AllItems()
+        public OnboardingItemsSource()
         {
-            ObservableCollection<ItemsSource> items = new ObservableCollection<ItemsSource>();
-            items.Add(new ItemsSource
+            ObservableCollection<ItemsSource> itemsSource = new ObservableCollection<ItemsSource>();
+            itemsSource.Add(new ItemsSource
             {
                 ImageFile = ImageSource.FromFile("trackYourCoverages.jpg"),
                 HeaderText = "Track your Coverages",
                 DescriptionText = "All your policies are pulled together in one\n place so you don’t " +
-                        "have to go digging\n around just to get the information you need\n when you need it."
+                            "have to go digging\n around just to get the information you need\n when you need it."
             });
-            items.Add(new ItemsSource
+            itemsSource.Add(new ItemsSource
             {
                 ImageFile = ImageSource.FromFile("getSolidAdvice.jpg"),
                 HeaderText = "Get Solid Advice",
                 DescriptionText = "No hold time on calls.\n No rearranging your schedule.\n No paperwork.\n No hassle."
             });
-            items.Add(new ItemsSource
+            itemsSource.Add(new ItemsSource
             {
                 ImageFile = ImageSource.FromFile("findSavingsFast.jpg"),
                 HeaderText = "Find Savings Fast",
                 DescriptionText = "Public data important for your rates\n is automatically incorporated. " +
-                        "That helps\n us let you know when a better rate\n or coverage is available."
+                            "That helps\n us let you know when a better rate\n or coverage is available."
             });
 
-            return items;
+            AllItems = new ObservableCollection<object>(Enumerable.Range(1, 3).Select(i => new { Number = i }).ToArray());
+
+            // = new ObservableCollection<object>(Enumerable.OfType<ItemsSource>(itemsSource));
+            //{
+            //    new ItemsSource
+            //    {
+            //        ImageFile = ImageSource.FromFile("trackYourCoverages.jpg"),
+            //        HeaderText = "Track your Coverages",
+            //        DescriptionText = "All your policies are pulled together in one\n place so you don’t " +
+            //                "have to go digging\n around just to get the information you need\n when you need it."
+            //    },
+            //    new ItemsSource
+            //    {
+            //        ImageFile = ImageSource.FromFile("getSolidAdvice.jpg"),
+            //        HeaderText = "Get Solid Advice",
+            //        DescriptionText = "No hold time on calls.\n No rearranging your schedule.\n No paperwork.\n No hassle."
+            //    },
+            //    new ItemsSource
+            //      {
+            //        ImageFile = ImageSource.FromFile("findSavingsFast.jpg"),
+            //        HeaderText = "Find Savings Fast",
+            //        DescriptionText = "Public data important for your rates\n is automatically incorporated. " +
+            //                "That helps\n us let you know when a better rate\n or coverage is available."
+            //      }
+            //};
         }
+            public ObservableCollection<object> AllItems { get; }
         
     }
 

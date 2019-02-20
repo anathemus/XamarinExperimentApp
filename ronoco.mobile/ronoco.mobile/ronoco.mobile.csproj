@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -16,23 +16,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <Compile Remove="model\Constants.cs" />
+    <Compile Remove="model\OnboardingCarouselContent.cs" />
+    <Compile Remove="model\OnboardingCarouselImageCollector.cs" />
+    <Compile Remove="viewmodel\OnboardingDataTemplate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CardsView" Version="2.0.3" />
+    <PackageReference Include="Twitter.Bootstrap" Version="3.0.1.1" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.4.859" />
+    <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Update="view\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="model\" />
-    <Folder Include="viewmodel\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="view\LaunchScreen.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
 </Project>

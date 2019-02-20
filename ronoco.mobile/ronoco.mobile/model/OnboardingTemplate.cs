@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 using ronoco.mobile.viewmodel;
+using ronoco.mobile.view;
 
 namespace ronoco.mobile.model
 {
@@ -41,8 +42,9 @@ namespace ronoco.mobile.model
                 CornerRadius = 45,
                 WidthRequest = 272,
                 HeightRequest = 48,
-                BorderWidth = 1
+                BorderWidth = 1,
             };
+            signUpEmailButton.Pressed += SignUpEmailButton_Pressed;
 
             signUpFacebookButton = new Button
             {
@@ -73,6 +75,15 @@ namespace ronoco.mobile.model
                 HeightRequest = 48,
                 BorderWidth = 1
             };
+        }
+
+        private void SignUpEmailButton_Pressed(object sender, EventArgs e)
+        {
+            NavigationPage navigation = new NavigationPage(new SignUpEmail());
+            navigation.BarBackgroundColor = Color.White;
+            navigation.BarTextColor = Color.Black;
+            App.Current.MainPage = navigation;
+            navigation.PushAsync(new SignUpEmail());
         }
     }
 }

@@ -8,22 +8,13 @@ namespace ronoco.mobile.model
 {
     class OnboardingTemplate : ContentView
     {
-        private int slideIndex { get; set; }
-        private int itemsSourceCount { get; set; }
-
-        public Grid CarouselTemplate(int itemsSourceCount)
+        public Button signInButton { get; set; }
+        public Button signUpEmailButton { get; set; }
+        public Button signUpFacebookButton { get; set; }
+        public Button signUpGoogleButton { get; set; }
+        public OnboardingTemplate()
         {
-            this.itemsSourceCount = itemsSourceCount;
-
-            // IMPORTANT NOTE! When creating attributes for template, it is not enough to instantiate!
-            // The attributes must be initialized with at least one property to be recognized
-            // otherwise they appear NULL
-            Grid carouselLayout = new Grid();
-
-            DotButtonsLayout buttonsLayout = new DotButtonsLayout(itemsSourceCount, Color.FromRgb(70, 120, 200), 8);
-            buttonsLayout.SetOpacityIndex(slideIndex);
-
-            Button signInButton = new Button
+            signInButton = new Button
             {
                 FontFamily = "SFUIText-Bold",
                 FontSize = 16,
@@ -38,7 +29,7 @@ namespace ronoco.mobile.model
                 BorderWidth = 1
             };
 
-            Button signUpEmailButton = new Button
+            signUpEmailButton = new Button
             {
                 FontFamily = "SFUIText-Bold",
                 FontSize = 16,
@@ -53,7 +44,7 @@ namespace ronoco.mobile.model
                 BorderWidth = 1
             };
 
-            Button signUpFacebookButton = new Button
+            signUpFacebookButton = new Button
             {
                 FontFamily = "SFUIText-Bold",
                 FontSize = 16,
@@ -68,7 +59,7 @@ namespace ronoco.mobile.model
                 BorderWidth = 1
             };
 
-            Button signUpGoogleButton = new Button
+            signUpGoogleButton = new Button
             {
                 FontFamily = "SFUIText-Bold",
                 FontSize = 16,
@@ -82,56 +73,6 @@ namespace ronoco.mobile.model
                 HeightRequest = 48,
                 BorderWidth = 1
             };
-
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(32, GridUnitType.Absolute) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            carouselLayout.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-
-            carouselLayout.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            carouselLayout.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(8, GridUnitType.Absolute)});
-            carouselLayout.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star)});
-
-            carouselLayout.BackgroundColor = Color.White;
-
-            // must use baseclass Grid to SetColumnSpan, cannot use instantiated object
-            
-            // TODO: Instead of adding CarouselPage to this grid, add this grid to the CarouselPage
-            carouselLayout.Children.Add(buttonsLayout, 0, 1);
-            Grid.SetColumnSpan(buttonsLayout, 3);
-
-            carouselLayout.Children.Add(signInButton, 0, 7);
-            Grid.SetColumnSpan(signInButton, 3);
-            carouselLayout.Children.Add(signUpEmailButton, 0, 5);
-            Grid.SetColumnSpan(signUpEmailButton, 3);
-            carouselLayout.Children.Add(signUpFacebookButton, 0, 3);
-            carouselLayout.Children.Add(signUpGoogleButton, 2, 3);
-
-            return carouselLayout;
-        }
-
-        public int GetSlideIndex()
-        {
-            return slideIndex;
-        }
-
-        public void SetSlideIndex(int slideIndex)
-        {
-            this.slideIndex = slideIndex;
-        }
-
-        public int GetItemsSourceCount()
-        {
-            return itemsSourceCount;
-        }
-
-        public void SetItemsSourceCount(int itemsSourceCount)
-        {
-            this.itemsSourceCount = itemsSourceCount;
         }
     }
 }

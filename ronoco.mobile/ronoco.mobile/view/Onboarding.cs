@@ -5,6 +5,7 @@ using PanCardView;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using ronoco.mobile.viewmodel;
+using ronoco.mobile.model;
 using System.Diagnostics;
 
 namespace ronoco.mobile.view
@@ -28,6 +29,16 @@ namespace ronoco.mobile.view
                             {
                                 new Setter { Property = BackgroundColorProperty, Value = Color.FromRgb(70,120,200)}
                             }
+                        },
+
+                        UnselectedIndicatorStyle = new Style(typeof(Frame))
+                        {
+                            BasedOn = DefaultIndicatorItemStyles.DefaultUnselectedIndicatorItemStyle,
+                            Setters =
+                            {
+                                new Setter { Property = BackgroundColorProperty, Value = Color.FromRgb(70, 120, 200)},
+                                new Setter { Property = OpacityProperty, Value = 0.5 }
+                            }
                         }
                     }
                 }
@@ -35,12 +46,45 @@ namespace ronoco.mobile.view
             _carouselView.SetBinding(CardsView.ItemsSourceProperty, nameof(OnboardingItemsSource.AllItems));
             Title = "Onboarding";
 
-            Content = _carouselView;
+            Content = OnboardingGrid(_carouselView);
 
             BindingContext = new OnboardingItemsSource();
         }
 
         private View GetCardItem() => new CardItem();
+
+        private Grid OnboardingGrid(PanCardView.CarouselView carouselView)
+        {
+            Grid grid = new Grid();
+            OnboardingTemplate template = new OnboardingTemplate();
+
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(352, GridUnitType.Absolute) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(32, GridUnitType.Absolute) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(8, GridUnitType.Absolute) });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+            grid.BackgroundColor = Color.White;
+
+            // must use baseclass Grid to SetColumnSpan, cannot use instantiated object
+            grid.Children.Add(carouselView, 0, 0);
+            Grid.SetColumnSpan(carouselView, 3);
+            grid.Children.Add(template.signInButton, 0, 6);
+            Grid.SetColumnSpan(template.signInButton, 3);
+            grid.Children.Add(template.signUpEmailButton, 0, 4);
+            Grid.SetColumnSpan(template.signUpEmailButton, 3);
+            grid.Children.Add(template.signUpFacebookButton, 0, 2);
+            grid.Children.Add(template.signUpGoogleButton, 2, 2);
+
+            return grid;
+        }
     }
 }
     

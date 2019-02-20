@@ -51,10 +51,9 @@ namespace ronoco.mobile.viewmodel
                     WidthRequest = 280,
                     Children =
                     {
-                        number
-                        //slideImage,
-                        //slideHeader,
-                        //slideDescription
+                        slideImage,
+                        slideHeader,
+                        slideDescription
                     }
                 }
             };

@@ -17,7 +17,7 @@ namespace ronoco.mobile
             InitializeComponent();
             App.Current.MainPage = new LaunchScreen();
             Timer timer = new Timer();
-            timer.Interval = 4000;
+            timer.Interval = 3000;
             timer.Enabled = true;
             timer.AutoReset = false;
 

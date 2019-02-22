@@ -5,6 +5,7 @@ namespace ronoco.mobile.model
 {
     internal class Policy
     {
+        private string PolicyName;
         private string CompanyName;
         private string PolicyNumber;
         private PolicyType PolicyType;
@@ -12,6 +13,14 @@ namespace ronoco.mobile.model
         private DateTime PolicyExpirationDate;
         private decimal PolicyPremium;
 
+        public string GetPolicyName()
+        {
+            return PolicyName;
+        }
+        public void SetPolicyName(string policyName)
+        {
+            this.PolicyName = policyName;
+        }
         public string GetCompanyName()
         {
             return CompanyName;
@@ -31,7 +40,14 @@ namespace ronoco.mobile.model
         {
             this.PolicyNumber = number;
         }
-
+        public PolicyType GetPolicyType()
+        {
+            return PolicyType;
+        }
+        public void SetPolicyType(PolicyType policyType)
+        {
+            this.PolicyType = policyType;
+        }
         public DateTime GetPolicyActiveDate()
         {
             return PolicyActiveDate;

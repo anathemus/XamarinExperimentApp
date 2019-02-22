@@ -3,11 +3,8 @@ using System.Collections.Generic;
 
 namespace ronoco.mobile.model
 {
-    internal class PolicyType : IEnumerable
+    internal class PolicyType
     {
-        public IEnumerator GetEnumerator()
-        {
-            throw new System.NotImplementedException();
-        }
+        internal static PolicyType Boat;
     }
 }

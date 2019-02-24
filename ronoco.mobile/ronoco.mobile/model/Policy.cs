@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ronoco.mobile.model
 {
-    internal class Policy
+    public class Policy
     {
         private string PolicyName;
         private string CompanyName;

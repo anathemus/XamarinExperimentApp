@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ronoco.mobile.model
 {
-    internal class PolicyType
+    public class PolicyType
     {
         internal static PolicyType Boat;
     }

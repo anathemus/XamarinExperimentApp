@@ -8,10 +8,11 @@ namespace ronoco.mobile.model
         private string PolicyName;
         private string CompanyName;
         private string PolicyNumber;
-        private PolicyType PolicyType;
+        private PolicyTypes.PolicyType PolicyType;
         private DateTime PolicyActiveDate;
         private DateTime PolicyExpirationDate;
         private decimal PolicyPremium;
+        private double PolicyExpirationDateFractionDouble;
 
         public string GetPolicyName()
         {
@@ -40,11 +41,11 @@ namespace ronoco.mobile.model
         {
             this.PolicyNumber = number;
         }
-        public PolicyType GetPolicyType()
+        public PolicyTypes.PolicyType GetPolicyType()
         {
             return PolicyType;
         }
-        public void SetPolicyType(PolicyType policyType)
+        public void SetPolicyType(PolicyTypes.PolicyType policyType)
         {
             this.PolicyType = policyType;
         }
@@ -76,6 +77,11 @@ namespace ronoco.mobile.model
         public void SetPolicyPremium(decimal premium)
         {
             this.PolicyPremium = premium;
+        }
+
+        public double GetPolicyExpirationDateFractionDouble()
+        {
+            return (365 / (PolicyExpirationDate - DateTime.Today).TotalDays) / 100;
         }
     }
 }

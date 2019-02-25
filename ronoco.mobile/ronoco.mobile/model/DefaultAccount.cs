@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ronoco.mobile.viewmodel;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
@@ -8,7 +9,7 @@ namespace ronoco.mobile.model
     public class DefaultAccount
     {
         public List<Policy> Policies { get; set; }
-        //public Policy BoatPolicyOne { get; set; }
+        public List<PolicyCell> PolicyCells { get; set; }
         public DefaultAccount()
         {
             Account DemoAccount = new Account();
@@ -18,7 +19,7 @@ namespace ronoco.mobile.model
             Policy BoatPolicyOne = new Policy();
             BoatPolicyOne.SetPolicyName("2005 Boston Whaler Outrage");
             BoatPolicyOne.SetCompanyName("Safeco");
-            BoatPolicyOne.SetPolicyType(PolicyType.Boat);
+            BoatPolicyOne.SetPolicyType(PolicyTypes.PolicyType.Boat);
             BoatPolicyOne.SetPolicyNumber("12M758811");
             BoatPolicyOne.SetPolicyActiveDate(DateTime.Parse("2/22/2019"));
             BoatPolicyOne.SetPolicyExpirationDate(DateTime.Parse("2/6/2020"));
@@ -28,17 +29,23 @@ namespace ronoco.mobile.model
             {
                 BoatPolicyOne
             };
+
+            PolicyCells = new List<PolicyCell>();
+            PolicyCells.Add(new PolicyCell
+            { BindingContext = Policies });
         }
 
-        public List<ImageCell> PolicyImageCells()
-        {
-            List<ImageCell> imageCells = new List<ImageCell>();
-            foreach (var policy in Policies)
-            {
+        //public List<PolicyCell> PolicyCells()
+        //{
+        //    List<PolicyCell> policyCells = new List<PolicyCell>();
 
-            }
+        //    foreach (var policy in Policies)
+        //    {
+        //        PolicyCell cell = new PolicyCell();
+        //        cell.
+        //    }
 
-            return imageCells;
-        }
+        //    return policyCells;
+        //}
     }
 }

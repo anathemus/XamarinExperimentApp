@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ronoco.mobile.model;
-
+using ronoco.mobile.viewmodel;
 using Xamarin.Forms;
 
 namespace ronoco.mobile.view
@@ -13,7 +13,8 @@ namespace ronoco.mobile.view
         public PolicyListView()
         {
             ListView activePolicyListView = new ListView();
-            activePolicyListView.ItemsSource = new DefaultAccount().Policies;
+            activePolicyListView.ItemTemplate = new DataTemplate(typeof(PolicyCell));
+            activePolicyListView.ItemsSource = new DefaultAccount().PolicyCells;
             ListView previousPolicyListView = new ListView();
             ContentPage activePolicyListTab = new ContentPage();
             activePolicyListTab.Title = "Active";

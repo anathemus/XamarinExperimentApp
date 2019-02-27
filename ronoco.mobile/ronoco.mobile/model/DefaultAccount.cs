@@ -31,8 +31,7 @@ namespace ronoco.mobile.model
             };
 
             PolicyCells = new List<PolicyCell>();
-            PolicyCells.Add(new PolicyCell
-            { BindingContext = Policies });
+            PolicyCells.Add(new PolicyCell());
         }
 
         //public List<PolicyCell> PolicyCells()

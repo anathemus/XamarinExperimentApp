@@ -5,83 +5,93 @@ namespace ronoco.mobile.model
 {
     public class Policy
     {
-        private string PolicyName;
-        public string CompanyName;
-        private string PolicyNumber;
+        public string PolicyName { get; set; }
+        public string CompanyName { get; set; }
+        public string PolicyNumber;
         public PolicyTypes.PolicyType PolicyType;
-        private DateTime PolicyActiveDate;
-        private DateTime PolicyExpirationDate;
-        private decimal PolicyPremium;
-        private double PolicyExpirationDateFractionDouble;
+        public DateTime PolicyActiveDate;
+        public DateTime PolicyExpirationDate = DateTime.MinValue;
+        public decimal PolicyPremium;
+        public double PolicyExpirationDateFractionDouble;
+        public Policy()
+        {
+            PolicyName = "";
+            CompanyName = "hodor";
+            string PolicyNumber = "";
+            PolicyTypes.PolicyType PolicyType = PolicyTypes.PolicyType.Auto;
+            DateTime PolicyActiveDate = DateTime.MinValue;
+            DateTime PolicyExpirationDate = DateTime.MinValue;
+            decimal PolicyPremium = 1.0M;
+            double PolicyExpirationDateFractionDouble = (365 / (PolicyExpirationDate - DateTime.Today).TotalDays) / 100;
+        }
+        //public string GetPolicyName()
+        //{
+        //    return PolicyName;
+        //}
+        //public void SetPolicyName(string policyName)
+        //{
+        //    this.PolicyName = policyName;
+        //}
+        //public string GetCompanyName()
+        //{
+        //    return CompanyName;
+        //}
 
-        public string GetPolicyName()
-        {
-            return PolicyName;
-        }
-        public void SetPolicyName(string policyName)
-        {
-            this.PolicyName = policyName;
-        }
-        public string GetCompanyName()
-        {
-            return CompanyName;
-        }
+        //public void SetCompanyName(string name)
+        //{
+        //    this.CompanyName = name;
+        //}
 
-        public void SetCompanyName(string name)
-        {
-            this.CompanyName = name;
-        }
+        //public string GetPolicyNumber()
+        //{
+        //    return PolicyNumber;
+        //}
 
-        public string GetPolicyNumber()
-        {
-            return PolicyNumber;
-        }
+        //public void SetPolicyNumber(string number)
+        //{
+        //    this.PolicyNumber = number;
+        //}
+        //public string GetPolicyType()
+        //{
+        //    return this.PolicyType.ToString();
+        //}
+        //public void SetPolicyType(PolicyTypes.PolicyType policyType)
+        //{
+        //    this.PolicyType = policyType;
+        //}
+        //public DateTime GetPolicyActiveDate()
+        //{
+        //    return PolicyActiveDate;
+        //}
 
-        public void SetPolicyNumber(string number)
-        {
-            this.PolicyNumber = number;
-        }
-        public string GetPolicyType()
-        {
-            return PolicyType.ToString();
-        }
-        public void SetPolicyType(PolicyTypes.PolicyType policyType)
-        {
-            this.PolicyType = policyType;
-        }
-        public DateTime GetPolicyActiveDate()
-        {
-            return PolicyActiveDate;
-        }
+        //public void SetPolicyActiveDate(DateTime activeDate)
+        //{
+        //    this.PolicyActiveDate = activeDate;
+        //}
 
-        public void SetPolicyActiveDate(DateTime activeDate)
-        {
-            this.PolicyActiveDate = activeDate;
-        }
+        //public DateTime GetPolicyExpirationDate()
+        //{
+        //    return PolicyExpirationDate;
+        //}
 
-        public DateTime GetPolicyExpirationDate()
-        {
-            return PolicyExpirationDate;
-        }
+        //public void SetPolicyExpirationDate(DateTime expirationDate)
+        //{
+        //    this.PolicyExpirationDate = expirationDate;
+        //}
 
-        public void SetPolicyExpirationDate(DateTime expirationDate)
-        {
-            this.PolicyExpirationDate = expirationDate;
-        }
+        //public decimal GetPolicyPremium()
+        //{
+        //    return PolicyPremium;
+        //}
 
-        public decimal GetPolicyPremium()
-        {
-            return PolicyPremium;
-        }
+        //public void SetPolicyPremium(decimal premium)
+        //{
+        //    this.PolicyPremium = premium;
+        //}
 
-        public void SetPolicyPremium(decimal premium)
-        {
-            this.PolicyPremium = premium;
-        }
-
-        public double GetPolicyExpirationDateFractionDouble()
-        {
-            return (365 / (PolicyExpirationDate - DateTime.Today).TotalDays) / 100;
-        }
+        //public double GetPolicyExpirationDateFractionDouble()
+        //{
+        //    return (365 / (PolicyExpirationDate - DateTime.Today).TotalDays) / 100;
+        //}
     }
 }

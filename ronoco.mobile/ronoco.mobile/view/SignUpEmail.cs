@@ -20,7 +20,7 @@ namespace ronoco.mobile.view
                 FontSize = 26,
                 HorizontalTextAlignment = TextAlignment.Center,
                 TextColor = Color.FromRgb(80, 80, 100),
-                Text = "Sign up"
+                Text = "Sign up",
             };
 
             Button emailEntryField = new Button

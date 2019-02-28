@@ -9,24 +9,29 @@ namespace ronoco.mobile.model
 {
     public class DefaultAccount
     {
-        public ObservableCollection<Policy> Policies { get; set; }
         public DefaultAccount()
         {
             Account DemoAccount = new Account();
             DemoAccount.SetUsername("default");
             DemoAccount.SetMemberSince(DateTime.Parse("2/4/2019"));
+        }
 
-            Policy BoatPolicyOne = new Policy();
-            BoatPolicyOne.SetPolicyName("2005 Boston Whaler Outrage");
-            BoatPolicyOne.SetCompanyName("Safeco");
-            BoatPolicyOne.SetPolicyType(PolicyTypes.PolicyType.Boat);
-            BoatPolicyOne.SetPolicyNumber("12M758811");
-            BoatPolicyOne.SetPolicyActiveDate(DateTime.Parse("2/22/2019"));
-            BoatPolicyOne.SetPolicyExpirationDate(DateTime.Parse("2/6/2020"));
-            BoatPolicyOne.SetPolicyPremium(Decimal.Parse("789"));
+        public static List<Policy> GetDefaultPolicies()
+        {
+            List<Policy> Policies = new List<Policy>
+            {
+                new Policy {
+                PolicyName = "2005 Boston Whaler Outrage",
+                CompanyName = "Safeco",
+                PolicyType = PolicyTypes.PolicyType.Boat,
+                PolicyNumber = "12M758811",
+                PolicyActiveDate = DateTime.Parse("2/22/2019"),
+                PolicyExpirationDate = DateTime.Parse("2/6/2020"),
+                PolicyPremium = Decimal.Parse("789")
+                }
+            };
 
-            Policies = new ObservableCollection<Policy>();
-            Policies.Add(BoatPolicyOne);
+            return Policies;
         }
     }
 }

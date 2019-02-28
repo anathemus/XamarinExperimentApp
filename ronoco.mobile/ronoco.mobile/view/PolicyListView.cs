@@ -13,17 +13,16 @@ namespace ronoco.mobile.view
         public PolicyListView()
         {
             ListView activePolicyListView = new ListView();
-            activePolicyListView.ItemsSource = new DefaultAccount().Policies;
-            activePolicyListView.ItemTemplate = new DataTemplate (() =>
-            { var cell = new PolicyCell();
-                cell.SetBinding(PolicyCell.TypeLabelProperty, "PolicyType");
-                cell.SetBinding(PolicyCell.PremiumLabelProperty, "PolicyPremium");
-                cell.SetBinding(PolicyCell.CompanyLabelProperty, "CompanyName");
-                cell.SetBinding(PolicyCell.ExpirationLabelProperty, "PolicyExpirationDate");
-                cell.SetBinding(PolicyCell.ExpirationBarProperty, "PolicyExpirationDateFractionDouble");
+            List<Policy> policies = DefaultAccount.GetDefaultPolicies();
+            activePolicyListView.ItemsSource = policies;
 
-                return cell;
-            });
+            activePolicyListView.SetBinding(PolicyCell.TypeLabelProperty, new Binding("PolicyType"));
+            activePolicyListView.SetBinding(PolicyCell.CompanyLabelProperty, new Binding("CompanyName"));
+            activePolicyListView.SetBinding(PolicyCell.ExpirationBarProperty, new Binding("PolicyExpirationDateFractionDouble"));
+            activePolicyListView.SetBinding(PolicyCell.PremiumLabelProperty, new Binding("PolicyPremium"));
+            activePolicyListView.SetBinding(PolicyCell.ExpirationLabelProperty, new Binding("PolicyExpirationDate"));
+            activePolicyListView.ItemTemplate = new DataTemplate(typeof(PolicyCell));
+
             ListView previousPolicyListView = new ListView();
             ContentPage activePolicyListTab = new ContentPage();
             activePolicyListTab.Title = "Active";

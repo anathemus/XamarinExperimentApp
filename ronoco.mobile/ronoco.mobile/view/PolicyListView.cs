@@ -13,8 +13,17 @@ namespace ronoco.mobile.view
         public PolicyListView()
         {
             ListView activePolicyListView = new ListView();
-            activePolicyListView.ItemTemplate = new DataTemplate(typeof(PolicyCell));
-            activePolicyListView.ItemsSource = new DefaultAccount().PolicyCells;
+            activePolicyListView.ItemsSource = new DefaultAccount().Policies;
+            activePolicyListView.ItemTemplate = new DataTemplate (() =>
+            { var cell = new PolicyCell();
+                cell.SetBinding(PolicyCell.TypeLabelProperty, "PolicyType");
+                cell.SetBinding(PolicyCell.PremiumLabelProperty, "PolicyPremium");
+                cell.SetBinding(PolicyCell.CompanyLabelProperty, "CompanyName");
+                cell.SetBinding(PolicyCell.ExpirationLabelProperty, "PolicyExpirationDate");
+                cell.SetBinding(PolicyCell.ExpirationBarProperty, "PolicyExpirationDateFractionDouble");
+
+                return cell;
+            });
             ListView previousPolicyListView = new ListView();
             ContentPage activePolicyListTab = new ContentPage();
             activePolicyListTab.Title = "Active";

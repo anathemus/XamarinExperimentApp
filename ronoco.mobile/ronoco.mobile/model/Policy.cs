@@ -6,9 +6,9 @@ namespace ronoco.mobile.model
     public class Policy
     {
         private string PolicyName;
-        private string CompanyName;
+        public string CompanyName;
         private string PolicyNumber;
-        private PolicyTypes.PolicyType PolicyType;
+        public PolicyTypes.PolicyType PolicyType;
         private DateTime PolicyActiveDate;
         private DateTime PolicyExpirationDate;
         private decimal PolicyPremium;
@@ -41,9 +41,9 @@ namespace ronoco.mobile.model
         {
             this.PolicyNumber = number;
         }
-        public PolicyTypes.PolicyType GetPolicyType()
+        public string GetPolicyType()
         {
-            return PolicyType;
+            return PolicyType.ToString();
         }
         public void SetPolicyType(PolicyTypes.PolicyType policyType)
         {

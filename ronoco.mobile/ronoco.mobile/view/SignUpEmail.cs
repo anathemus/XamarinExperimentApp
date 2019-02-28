@@ -23,9 +23,6 @@ namespace ronoco.mobile.view
                 Text = "Sign up"
             };
 
-            PolicyCell cell = new PolicyCell();
-            cell.BindingContext = new DefaultAccount().Policies;
-
             Button emailEntryField = new Button
             {
                 BackgroundColor = Color.LightGray,
@@ -57,7 +54,6 @@ namespace ronoco.mobile.view
 
             grid.Children.Add(signUpTitle, 0, 0);
             grid.Children.Add(emailEntryField, 0, 2);
-            grid.Children.Add(cell.View, 0, 4);
 
             Content = grid;
         }

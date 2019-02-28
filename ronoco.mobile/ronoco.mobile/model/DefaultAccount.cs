@@ -1,6 +1,7 @@
 ﻿using ronoco.mobile.viewmodel;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using Xamarin.Forms;
 
@@ -8,8 +9,7 @@ namespace ronoco.mobile.model
 {
     public class DefaultAccount
     {
-        public List<Policy> Policies { get; set; }
-        public List<PolicyCell> PolicyCells { get; set; }
+        public ObservableCollection<Policy> Policies { get; set; }
         public DefaultAccount()
         {
             Account DemoAccount = new Account();
@@ -25,26 +25,8 @@ namespace ronoco.mobile.model
             BoatPolicyOne.SetPolicyExpirationDate(DateTime.Parse("2/6/2020"));
             BoatPolicyOne.SetPolicyPremium(Decimal.Parse("789"));
 
-            Policies = new List<Policy>
-            {
-                BoatPolicyOne
-            };
-
-            PolicyCells = new List<PolicyCell>();
-            PolicyCells.Add(new PolicyCell());
+            Policies = new ObservableCollection<Policy>();
+            Policies.Add(BoatPolicyOne);
         }
-
-        //public List<PolicyCell> PolicyCells()
-        //{
-        //    List<PolicyCell> policyCells = new List<PolicyCell>();
-
-        //    foreach (var policy in Policies)
-        //    {
-        //        PolicyCell cell = new PolicyCell();
-        //        cell.
-        //    }
-
-        //    return policyCells;
-        //}
     }
 }

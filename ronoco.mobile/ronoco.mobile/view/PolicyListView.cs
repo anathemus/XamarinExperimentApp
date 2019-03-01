@@ -12,15 +12,31 @@ namespace ronoco.mobile.view
     {
         public PolicyListView()
         {
-            ListView activePolicyListView = new ListView();
-            List<Policy> policies = DefaultAccount.GetDefaultPolicies();
-            activePolicyListView.ItemsSource = policies;
+            List<Policy> policies = new List<Policy>
+            {
+                new Policy {
+                PolicyName = "2005 Boston Whaler Outrage",
+                CompanyName = "Safeco",
+                PolicyType = PolicyType.Boat,
+                PolicyNumber = "12M758811",
+                PolicyActiveDate = DateTime.Parse("02/22/2019"),
+                PolicyExpirationDate = DateTime.Parse("02/06/2020"),
+                PolicyPremium = Decimal.Parse("789")
+                }
+            };
 
-            activePolicyListView.SetBinding(PolicyCell.TypeLabelProperty, new Binding("PolicyType"));
-            activePolicyListView.SetBinding(PolicyCell.CompanyLabelProperty, new Binding("CompanyName"));
-            activePolicyListView.SetBinding(PolicyCell.ExpirationBarProperty, new Binding("PolicyExpirationDateFractionDouble"));
-            activePolicyListView.SetBinding(PolicyCell.PremiumLabelProperty, new Binding("PolicyPremium"));
-            activePolicyListView.SetBinding(PolicyCell.ExpirationLabelProperty, new Binding("PolicyExpirationDate"));
+            //loop back through to grab string values
+            foreach (var policy in policies)
+            {
+                policy.PolicyTypeString = policy.PolicyType.ToString();
+                policy.PolicyActiveDateString = policy.PolicyActiveDate.ToShortDateString();
+                policy.PolicyExpirationDateString = policy.PolicyExpirationDate.ToShortDateString();
+                policy.PolicyPremiumString = policy.PolicyPremium.ToString();
+            }
+
+            ListView activePolicyListView = new ListView();
+            activePolicyListView.RowHeight = 74;
+            activePolicyListView.ItemsSource = policies;
             activePolicyListView.ItemTemplate = new DataTemplate(typeof(PolicyCell));
 
             ListView previousPolicyListView = new ListView();

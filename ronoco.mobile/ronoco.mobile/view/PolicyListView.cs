@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using ronoco.mobile.model;
 using ronoco.mobile.viewmodel;
+using ronoco.mobile.tests;
 using Xamarin.Forms;
 
 namespace ronoco.mobile.view
@@ -12,32 +13,19 @@ namespace ronoco.mobile.view
     {
         public PolicyListView()
         {
-            List<Policy> policies = new List<Policy>
-            {
-                new Policy {
-                PolicyName = "2005 Boston Whaler Outrage",
-                CompanyName = "Safeco",
-                PolicyType = PolicyType.Boat,
-                PolicyNumber = "12M758811",
-                PolicyActiveDate = DateTime.Parse("02/22/2019"),
-                PolicyExpirationDate = DateTime.Parse("02/06/2020"),
-                PolicyPremium = Decimal.Parse("789")
-                }
-            };
+            // instantiate the Account first.
+            Account account = new Account();
+            DemoAccount demoAccount = new DemoAccount();
+            account = demoAccount.GetAccount();
 
-            //loop back through to grab string values
-            foreach (var policy in policies)
-            {
-                policy.PolicyTypeString = policy.PolicyType.ToString();
-                policy.PolicyActiveDateString = policy.PolicyActiveDate.ToShortDateString();
-                policy.PolicyExpirationDateString = policy.PolicyExpirationDate.ToShortDateString();
-                policy.PolicyPremiumString = policy.PolicyPremium.ToString();
-            }
+            // grab the List of Policies from the Account
+            List<Policy> policies = account.GetPolicies();
 
             ListView activePolicyListView = new ListView();
             activePolicyListView.RowHeight = 74;
             activePolicyListView.ItemsSource = policies;
             activePolicyListView.ItemTemplate = new DataTemplate(typeof(PolicyCell));
+            activePolicyListView.ItemSelected += ActivePolicy_ItemSelected;
 
             ListView previousPolicyListView = new ListView();
             ContentPage activePolicyListTab = new ContentPage();
@@ -47,6 +35,11 @@ namespace ronoco.mobile.view
             previousPolicyListTab.Title = "Previous";
             Children.Add(activePolicyListTab);
             Children.Add(previousPolicyListTab);
+        }
+
+        private void ActivePolicy_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Navigation.PushAsync(new PolicyPage());
         }
     }
 }

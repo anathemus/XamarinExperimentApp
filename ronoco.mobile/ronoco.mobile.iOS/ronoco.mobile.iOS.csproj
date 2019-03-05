@@ -95,6 +95,9 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\fa-brands-400.ttf" />
+    <BundleResource Include="Resources\fa-regular-400.ttf" />
+    <BundleResource Include="Resources\fa-solid-900.ttf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -171,5 +174,17 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\trackYourCoverages.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\policyIconHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\policyIconBoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TwoThousandFiveBostonWhalerTwoFiftyOutrage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\SeventyColoneseRoad.png" />
   </ItemGroup>
 </Project>

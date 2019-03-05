@@ -18,6 +18,8 @@ namespace ronoco.mobile.model
         public string PolicyActiveDateString { get; set; }
         public string PolicyExpirationDateString { get; set; }
         public string PolicyPremiumString { get; set; }
+        public string PolicyIconFileString { get; set; }
+        public string PolicyImageFileString { get; set; }
 
         public Policy()
         {

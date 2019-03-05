@@ -19,5 +19,7 @@ namespace ronoco.mobile.interfaces
         decimal PolicyPremium { get; set; }
         string PolicyPremiumString { get; set; }
         double PolicyExpirationDateFractionDouble { get; set; }
+        string PolicyIconFileString { get; set; }
+        string PolicyImageFileString { get; set; }
     }
 }

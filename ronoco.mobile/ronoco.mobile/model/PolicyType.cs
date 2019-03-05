@@ -8,6 +8,7 @@ namespace ronoco.mobile.model
     {
         Boat,
         Auto,
-        Life
+        Life,
+        Home
     }
 }

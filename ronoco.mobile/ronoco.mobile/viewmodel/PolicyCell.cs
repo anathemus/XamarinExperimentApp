@@ -20,6 +20,7 @@ namespace ronoco.mobile.viewmodel
     //    public static readonly BindableProperty IconProperty =
     //        BindableProperty.Create(nameof(Icon), typeof(string), typeof(PolicyCell), null);
         public Image Icon { get; set; }
+        public FileImageSource IconSource { get; set; }
     //    {
     //        get { return (string)GetValue(IconProperty); }
     //        set { SetValue(IconProperty, value); }
@@ -61,29 +62,23 @@ namespace ronoco.mobile.viewmodel
 
         public PolicyCell()
         {
-            TypeLabel = new Label();
-            TypeLabel.SetBinding(Label.TextProperty, new Binding("PolicyTypeString"));
+            TypeLabel = new Label { FontFamily = "SFUIText-Bold", FontAttributes = FontAttributes.Bold, FontSize = 14 };
+            TypeLabel.SetBinding(Label.TextProperty, new Binding("PolicyTypeString"));            
 
             Icon = new Image();
-            switch (TypeLabel.Text)
-            {
-                case "Boat":
-                    Icon.Source = ImageSource.FromFile("policyIconBoat.png");
-                    break;
-                default:
-                    Icon.Source = ImageSource.FromFile("policyIconBoat.png");
-                    break;
-            }
-            Icon.VerticalOptions = LayoutOptions.StartAndExpand;
+            IconSource = new FileImageSource();
+            IconSource.SetBinding(FileImageSource.FileProperty, new Binding("PolicyIconFileString"));
+            Icon.Source = IconSource;
+            Icon.VerticalOptions = LayoutOptions.CenterAndExpand;
             Icon.HorizontalOptions = LayoutOptions.CenterAndExpand;
 
-            PremiumLabel = new Label();
+            PremiumLabel = new Label { FontFamily = "SFUIText-Bold", FontAttributes = FontAttributes.Bold, FontSize = 14, HorizontalTextAlignment = TextAlignment.End };
             PremiumLabel.SetBinding(Label.TextProperty, new Binding("PolicyPremiumString"));
             CompanyLabel = new Label { FontFamily = "SFUIDisplay-Light", FontSize = 10 };
             CompanyLabel.SetBinding(Label.TextProperty, new Binding("CompanyName"));
-            ExpirationLabel = new Label();
+            ExpirationLabel = new Label { FontFamily = "SFUIDisplay-Light", FontSize = 10, HorizontalTextAlignment = TextAlignment.End };
             ExpirationLabel.SetBinding(Label.TextProperty, new Binding("PolicyExpirationDateString"));
-            ExpirationBar = new ProgressBar();
+            ExpirationBar = new ProgressBar { ProgressColor = Color.FromRgb(70, 120, 200) };
             ExpirationBar.SetBinding(ProgressBar.ProgressProperty, new Binding("PolicyExpirationDateFractionDouble"));
 
             Grid PolicyGrid = new Grid();
@@ -91,7 +86,7 @@ namespace ronoco.mobile.viewmodel
             PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(7, GridUnitType.Absolute) });
             PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(15, GridUnitType.Absolute) });
             PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(5, GridUnitType.Absolute) });
-            PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(10, GridUnitType.Absolute) });
+            PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(11, GridUnitType.Absolute) });
             PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(7, GridUnitType.Absolute) });
             PolicyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
 
@@ -113,7 +108,9 @@ namespace ronoco.mobile.viewmodel
             Grid.SetColumnSpan(ExpirationBar, 2);
             PolicyGrid.Children.Add(PremiumLabel, 2, 1);
             PolicyGrid.Children.Add(ExpirationLabel, 2, 3);
-            PolicyGrid.Padding = new Thickness(0, 14);
+
+            PolicyGrid.RowSpacing = 0;
+            PolicyGrid.Padding = new Thickness(0, 10);
 
             View = PolicyGrid;
         }

@@ -81,6 +81,8 @@ namespace ronoco.mobile.viewmodel
             Label premiumLabel = new Label();
             premiumLabel = variableLabel.CreateVariableLabel(new Binding("PolicyPremiumString"));
 
+            BottomPolicyToolbar bottomToolbar = new BottomPolicyToolbar();
+
             Grid policyGrid = new Grid();
 
             policyGrid.RowSpacing = 0;
@@ -152,6 +154,9 @@ namespace ronoco.mobile.viewmodel
             policyGrid.Children.Add(premiumStaticLabel, 1, 6);
 
             policyGrid.Children.Add(premiumLabel, 2, 6);
+
+            policyGrid.Children.Add(bottomToolbar, 0, 8);
+            Grid.SetColumnSpan(bottomToolbar, 4);
 
             ScrollView policyScroller = new ScrollView
             {

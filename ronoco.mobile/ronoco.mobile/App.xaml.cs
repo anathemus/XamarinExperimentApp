@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Linq;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ronoco.mobile
@@ -15,6 +16,7 @@ namespace ronoco.mobile
         public App()
         {
             InitializeComponent();
+
             App.Current.MainPage = new LaunchScreen();
             Timer timer = new Timer();
             timer.Interval = 3000;

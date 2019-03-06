@@ -12,11 +12,17 @@ namespace ronoco.mobile.viewmodel
         public BottomPolicyToolbar()
         {
             Color = Color.FromRgb(202, 202, 208);
+            BottomToolbarButton toolbarButton = new BottomToolbarButton();
+
+            StackLayout policyButton = toolbarButton.GetBottomToolbarButton(BottomToolbarButton.ButtonType.Policies);
 
             StackLayout bottomToolbarLayout = new StackLayout
             {
                 Orientation = StackOrientation.Horizontal,
-
+                HeightRequest = 48,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                Children = { policyButton }
             };
         }
     }

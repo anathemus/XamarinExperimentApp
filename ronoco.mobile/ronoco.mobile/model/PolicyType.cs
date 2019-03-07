@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace ronoco.mobile.model
 {
-    internal class PolicyType : IEnumerable
+    public enum PolicyType
     {
-        public IEnumerator GetEnumerator()
-        {
-            throw new System.NotImplementedException();
-        }
+        Boat,
+        Auto,
+        Life,
+        Home
     }
 }

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using FFImageLoading.Forms.Platform;
+using FFImageLoading.Svg.Forms;
 using Foundation;
 using UIKit;
 
@@ -24,6 +25,8 @@ namespace ronoco.mobile.iOS
         {
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             global::Xamarin.Forms.Forms.Init();
+            CachedImageRenderer.Init();
+            var ignore = typeof(SvgCachedImage);
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

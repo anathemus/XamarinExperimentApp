@@ -13,6 +13,10 @@ namespace ronoco.mobile.view
     {
         public SignUpEmail()
         {
+            IconToolbarItem backArrow = new IconToolbarItem();
+            backArrow.Icon = new Icon().MakeIcon(viewmodel.Icon.IconType.Solid,"\uf060", Color.FromRgb(80, 80, 100)).Source as FileImageSource;
+            ToolbarItems.Add(backArrow);
+
             Padding = new Thickness(24, 0);
             BackgroundColor = Color.White;
 

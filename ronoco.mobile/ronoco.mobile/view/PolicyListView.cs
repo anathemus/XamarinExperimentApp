@@ -6,6 +6,7 @@ using ronoco.mobile.model;
 using ronoco.mobile.viewmodel;
 using ronoco.mobile.tests;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 namespace ronoco.mobile.view
 {
@@ -39,7 +40,9 @@ namespace ronoco.mobile.view
 
         private void ActivePolicy_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Navigation.PushAsync(new PolicyPage());
+            PolicyPage page = new PolicyPage { TappedIndex = e.SelectedItemIndex };
+            page = page.GetPolicy();
+            Navigation.PushAsync(page);
         }
     }
 }

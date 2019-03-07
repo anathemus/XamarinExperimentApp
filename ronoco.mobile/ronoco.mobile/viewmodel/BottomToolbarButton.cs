@@ -19,11 +19,7 @@ namespace ronoco.mobile.viewmodel
 
         protected virtual void OnBottomButtonTapped(EventArgs e)
         {
-            EventHandler handler = ButtonTapped;
-            if (handler != null)
-            {
-                handler(this, e);
-            }
+            ButtonTapped?.Invoke(this, e);
         }
 
         public StackLayout GetBottomToolbarButton(ButtonType button)
@@ -31,31 +27,49 @@ namespace ronoco.mobile.viewmodel
             Icon buttonIcon = new Icon();
             string buttonText = "";
             Label buttonTextLabel = new Label { Text = buttonText };
-            StackLayout bottomToolbarButton = new StackLayout
-            {
-                Orientation = StackOrientation.Vertical,
-                Children = {buttonIcon, buttonTextLabel}
-            };
 
             switch (button)
             {
                 case ButtonType.Policies:
-                    buttonIcon = new Icon { FontIcon = "fas-shield-alt", IconColor = Color.FromRgb(80, 80, 100) };
+                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf3ed", Color.FromRgb(80, 80, 100));
+                    buttonIcon.VerticalOptions = LayoutOptions.Center;
+                    buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
                     buttonText = "Policies";
-                    buttonTextLabel.Text = buttonText;
-                    bottomToolbarButton.Children.Clear();
-                    bottomToolbarButton.Children.Add(buttonIcon);
-                    bottomToolbarButton.Children.Add(buttonTextLabel);
+                    buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Assets:
+                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf550", Color.FromRgb(80, 80, 100));
+                    buttonIcon.VerticalOptions = LayoutOptions.Center;
+                    buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                    buttonText = "Assets";
+                    buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Score:
+                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf3fd", Color.FromRgb(80, 80, 100));
+                    buttonIcon.VerticalOptions = LayoutOptions.Center;
+                    buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                    buttonText = "Score";
+                    buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Advice:
+                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf470", Color.FromRgb(80, 80, 100));
+                    buttonIcon.VerticalOptions = LayoutOptions.Center;
+                    buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                    buttonText = "Advice";
+                    buttonTextLabel = new Label { Text = buttonText };
                     break;
                 default:
                     break;
             }
+
+            StackLayout bottomToolbarButton = new StackLayout
+            {
+                Orientation = StackOrientation.Vertical,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                Children = { buttonIcon, buttonTextLabel }
+            };
+
             return bottomToolbarButton;
         }
     }

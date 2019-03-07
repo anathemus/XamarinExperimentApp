@@ -157,7 +157,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -195,5 +195,4515 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\SeventyColoneseRoad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\address-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\address-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\adjust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\air-freshener.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\align-center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\align-justify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\align-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\align-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\allergies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ambulance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\american-sign-language-interpreting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\anchor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-double-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-double-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-double-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-double-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angle-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\angry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ankh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\apple-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\archway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-alt-circle-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-alt-circle-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-alt-circle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-alt-circle-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-circle-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-circle-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-circle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-circle-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrows-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrows-alt-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrows-alt-v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\arrow-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\assistive-listening-systems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\asterisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\at.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\atlas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\atom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\audio-description.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\award.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\baby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\baby-carriage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\backspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bacon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\balance-scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ban.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\band-aid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\baseball-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\basketball-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\battery-empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\battery-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\battery-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\battery-quarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\battery-three-quarters.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bell-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bezier-curve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bicycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\binoculars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\biohazard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\birthday-cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\blender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\blender-phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\blind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\blog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bolt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\book-dead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\book-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\book-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\book-reader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bowling-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\box-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\braille.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\brain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bread-slice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\briefcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\briefcase-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\broadcast-tower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\broom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bullhorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bullseye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\burn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\bus-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\business-time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-times.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\calendar-week.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\camera-retro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\campground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\candy-cane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cannabis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\capsules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\car-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\car-battery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\car-crash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-square-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-square-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-square-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-square-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\caret-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\car-side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cart-arrow-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cart-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cash-register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chalkboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chalkboard-teacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\charging-station.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chart-area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chart-bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chart-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chart-pie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\check-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\check-double.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\check-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-bishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-knight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-queen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chess-rook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-circle-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-circle-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-circle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-circle-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\chevron-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\child.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\church.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\circle-notch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\city.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clinic-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clipboard-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clipboard-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\clone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\closed-captioning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-download-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-meatball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-moon-rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-showers-heavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-sun-rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cloud-upload-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cocktail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\code-branch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cogs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\columns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment-dots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comments-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\comment-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\compact-disc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\compass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\compress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\compress-arrows-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\concierge-bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cookie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cookie-bite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\copyright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\couch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crop-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crosshairs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\crutch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cubes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\deaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\democrat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dharmachakra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\diagnoses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-d6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-d20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dice-two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\digital-tachograph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\directions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\divide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dizzy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dollar-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dolly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dolly-flatbed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\donate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\door-closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\door-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dot-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\drafting-compass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\draw-polygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\drum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\drum-steelpan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\drumstick-bite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dumbbell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dumpster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dumpster-fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\dungeon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\egg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\eject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ellipsis-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ellipsis-v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\envelope-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\envelope-open-text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\envelope-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\equals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ethernet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\euro-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\exchange-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\exclamation-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\exclamation-triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\expand-arrows-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\external-link-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\external-link-square-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\eye-dropper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\eye-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fast-backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fast-forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\feather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\feather-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fighter-jet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-contract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-csv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-invoice-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-medical-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-powerpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-prescription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-signature.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\file-word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fill-drip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\film.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fingerprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fire-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fire-extinguisher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\first-aid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\fist-raised.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\flag-checkered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\flag-usa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\flask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\flushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\folder-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\folder-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\folder-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\font-awesome-logo-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\football-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\frog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\frown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\frown-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\funnel-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\futbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gamepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gas-pump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gavel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\genderless.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gifts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\glass-cheers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\glasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\glass-martini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\glass-martini-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\glass-whiskey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\globe-africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\globe-americas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\globe-asia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\globe-europe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\golf-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\gopuram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\graduation-cap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\greater-than.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\greater-than-equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grimace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-beam-sweat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-squint-tears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-stars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-tears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-tongue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-tongue-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-tongue-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grin-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grip-horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grip-lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grip-lines-vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\grip-vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\guitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hamsa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-holding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-holding-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-holding-usd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-lizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-middle-finger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-peace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-point-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-point-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-point-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-point-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-scissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\handshake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hands-helping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hand-spock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hanukiah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hard-hat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hashtag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hat-wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\haykal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\heading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\headphones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\headphones-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\headset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\heartbeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\heart-broken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\helicopter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\highlighter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hiking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hippo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hockey-puck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\holly-berry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\horse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\horse-head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hospital-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hospital-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hotdog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hot-tub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hourglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hourglass-end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hourglass-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hourglass-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\house-damage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\hryvnia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\h-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ice-cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\icicles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\i-cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\id-badge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\id-card-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\igloo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\inbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\industry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\infinity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\info-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\jedi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\joint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\journal-whills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\kaaba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\khanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\kiss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\kiss-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\kiss-wink-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\kiwi-bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\landmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laptop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laptop-code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laptop-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laugh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laugh-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laugh-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\laugh-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\layer-group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\leaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\lemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\less-than.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\less-than-equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\level-down-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\level-up-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\life-ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\lightbulb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\lira-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\list-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\list-ol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\list-ul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\location-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\lock-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\long-arrow-alt-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\long-arrow-alt-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\long-arrow-alt-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\long-arrow-alt-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\low-vision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\luggage-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\magic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\magnet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mail-bulk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-marked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-marked-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-marker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-marker-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\map-signs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\marker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mars-double.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mars-stroke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mars-stroke-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mars-stroke-v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\medal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\medkit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\meh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\meh-blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\meh-rolling-eyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\menorah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mercury.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\meteor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microchip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microphone-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microphone-alt-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microphone-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\microscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\minus-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\minus-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mitten.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mobile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mobile-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-bill-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-bill-wave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-bill-wave-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\money-check-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\monument.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mortar-pestle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mosque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\motorcycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mountain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mouse-pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\mug-hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\network-wired.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\neuter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\newspaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\not-equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\notes-medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\object-group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\object-ungroup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\oil-can.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\om.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\otter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\outdent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paint-brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paint-roller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paperclip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paper-plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\parachute-box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paragraph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\parking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\passport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pastafarianism.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pause-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\paw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\peace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pen-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pencil-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pencil-ruler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pen-fancy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pen-nib.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pen-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\people-carry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pepper-hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\percent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\percentage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\person-booth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\phone-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\phone-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\phone-volume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\piggy-bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pizza-slice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\place-of-worship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plane-arrival.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plane-departure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\play-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plus-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\plus-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\podcast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\poll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\poll-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\poo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\poop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\poo-storm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\portrait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pound-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\power-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\pray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\praying-hands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\prescription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\prescription-bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\prescription-bottle-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\procedures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\project-diagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\puzzle-piece.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\qrcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\question-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\quidditch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\quote-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\quote-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\quran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\radiation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\radiation-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\rainbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\random.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\receipt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\redo-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\registered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\reply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\reply-all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\republican.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\restroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\retweet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ribbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\road.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\robot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\route.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\rss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\rss-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ruble-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ruler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ruler-combined.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ruler-horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ruler-vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\running.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\rupee-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sad-cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sad-tear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\satellite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\satellite-dish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\school.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\screwdriver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\scroll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sd-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\search-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\search-location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\search-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\search-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\seedling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\server.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shapes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\share-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\share-alt-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\share-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shekel-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shield-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shipping-fast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shoe-prints.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shopping-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shopping-basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\shuttle-van.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\signal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\signature.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sign-in-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sign-language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sign-out-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sim-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sitemap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\skating.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\skiing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\skiing-nordic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\skull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\skull-crossbones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sleigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sliders-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smile-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smile-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smoking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\smoking-ban.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\snowboarding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\snowflake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\snowman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\snowplow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\socks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\solar-panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-alpha-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-alpha-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-amount-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-amount-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-numeric-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-numeric-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sort-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\spa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\space-shuttle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\spider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\spinner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\splotch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\spray-can.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\square-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\square-root-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star-and-crescent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star-half-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star-of-david.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\star-of-life.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\step-backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\step-forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stethoscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sticky-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stop-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stopwatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\store-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\street-view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\strikethrough.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\stroopwafel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\subscript.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\subway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\suitcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\suitcase-rolling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\superscript.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\surprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\swatchbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\swimmer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\swimming-pool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\synagogue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\sync-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\syringe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tablet-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\table-tennis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tablets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tachometer-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tags.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\taxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\teeth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\teeth-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\temperature-high.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\temperature-low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tenge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\terminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\text-height.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\text-width.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\th.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\theater-masks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer-empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer-quarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thermometer-three-quarters.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\th-large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\th-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thumbs-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thumbs-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\thumbtack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\ticket-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\times.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\times-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tint-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tired.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\toggle-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\toggle-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\toilet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\toilet-paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\toolbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\torah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\torii-gate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tractor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trademark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\traffic-light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\train.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\transgender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\transgender-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trash-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trash-restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trash-restore-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\trophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\truck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\truck-loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\truck-monster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\truck-moving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\truck-pickup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tshirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\tv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\umbrella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\umbrella-beach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\undo-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\universal-access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\university.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\unlink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\unlock-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-alt-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-astronaut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-graduate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-injured.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-ninja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-nurse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\users-cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-secret.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-tie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\user-times.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\utensils.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\utensil-spoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vector-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\venus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\venus-double.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\venus-mars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\video-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vihara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\volleyball-ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\volume-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\volume-mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\volume-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\volume-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vote-yea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\vr-cardboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\walking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\warehouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\weight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\weight-hanging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wheelchair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wifi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\window-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\window-maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\window-minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\window-restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wine-bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wine-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wine-glass-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\won-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\wrench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\x-ray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\yen-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Solid\yin-yang.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\address-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\address-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\angry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\arrow-alt-circle-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\arrow-alt-circle-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\arrow-alt-circle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\arrow-alt-circle-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\bell-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\calendar-times.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\caret-square-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\caret-square-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\caret-square-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\caret-square-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\chart-bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\check-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\check-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\clone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\closed-captioning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\comment-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\comment-dots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\comments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\compass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\copyright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\dizzy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\dot-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\envelope-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\eye-slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-powerpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\file-word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\flushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\folder-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\font-awesome-logo-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\frown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\frown-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\futbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\gem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grimace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-beam-sweat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-squint-tears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-stars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-tears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-tongue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-tongue-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-tongue-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\grin-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-lizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-peace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-point-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-point-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-point-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-point-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-scissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\handshake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hand-spock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\hourglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\id-badge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\kiss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\kiss-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\kiss-wink-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\laugh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\laugh-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\laugh-squint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\laugh-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\lemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\life-ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\lightbulb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\list-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\meh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\meh-blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\meh-rolling-eyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\minus-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\money-bill-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\newspaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\object-group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\object-ungroup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\paper-plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\pause-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\play-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\plus-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\question-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\registered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\sad-cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\sad-tear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\share-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\smile-beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\smile-wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\snowflake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\star-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\sticky-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\stop-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\surprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\thumbs-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\thumbs-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\times-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\tired.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\trash-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\user-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\window-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\window-maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\window-minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Regular\window-restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\accessible-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\accusoft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\acquisitions-incorporated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\adn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\adobe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\adversal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\affiliatetheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\algolia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\alipay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\amazon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\amazon-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\amilia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\android.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\angellist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\angrycreative.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\angular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\apper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\apple-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\app-store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\app-store-ios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\artstation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\asymmetrik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\atlassian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\audible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\autoprefixer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\avianex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\aviato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\aws.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bandcamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\behance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\behance-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bimobject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bitbucket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bitcoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\blackberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\black-tie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\blogger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\blogger-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bluetooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\bluetooth-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\btc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\buromobelexperte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\buysellads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\canadian-maple-leaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-amazon-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-amex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-apple-pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-diners-club.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-discover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-jcb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-mastercard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-paypal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-stripe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cc-visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\centercode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\centos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\chrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cloudscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cloudsmith.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cloudversify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\codepen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\codiepie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\confluence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\connectdevelop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\contao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cpanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-by.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-nc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-nc-eu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-nc-jp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-pd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-pd-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-remix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-sa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-sampling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-sampling-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\creative-commons-zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\critical-role.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\css3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\css3-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\cuttlefish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\d-and-d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\d-and-d-beyond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dashcube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\delicious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\deploydog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\deskpro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\deviantart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dhl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\diaspora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\digg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\digital-ocean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\discord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\discourse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dochub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\docker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\draft2digital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dribbble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dribbble-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dropbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\drupal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\dyalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\earlybirds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ebay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\edge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\elementor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ello.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ember.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\empire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\envira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\erlang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ethereum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\etsy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\expeditedssl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\facebook-f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\facebook-messenger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\facebook-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fantasy-flight-games.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fedex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fedora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\figma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\firefox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\firstdraft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\first-order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\first-order-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\flickr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\flipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\font-awesome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\font-awesome-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\font-awesome-flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\font-awesome-logo-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fonticons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fonticons-fi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fort-awesome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fort-awesome-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\forumbee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\foursquare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\freebsd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\free-code-camp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\fulcrum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\galactic-republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\galactic-senate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\get-pocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gg-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\git.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\github.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\github-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\github-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gitkraken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gitlab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\git-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\glide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\glide-g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gofore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\goodreads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\goodreads-g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-drive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-plus-g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-plus-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\google-wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gratipay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\grav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gripfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\grunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\gulp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hacker-news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hacker-news-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hackerrank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hips.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hire-a-helper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hooli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hornbill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hotjar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\houzz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\html5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\hubspot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\imdb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\intercom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\internet-explorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\invision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ioxhost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\itunes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\itunes-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\java.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\jedi-order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\jenkins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\jira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\joget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\joomla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\js.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\jsfiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\js-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\kaggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\keybase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\keycdn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\kickstarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\kickstarter-k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\korvue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\laravel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\lastfm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\lastfm-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\leanpub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\less.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\linkedin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\linkedin-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\linode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\linux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\lyft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\magento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mailchimp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mandalorian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\markdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mastodon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\maxcdn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\medapps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\medium-m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\medrt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\meetup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\megaport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mendeley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\microsoft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mixcloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\mizuni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\modx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\monero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\napster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\neos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\nimblr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\nintendo-switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\node-js.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\npm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ns8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\nutritionix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\odnoklassniki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\odnoklassniki-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\old-republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\opencart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\openid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\opera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\optin-monster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\osi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\page4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pagelines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\palfed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\patreon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\paypal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\penny-arcade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\periscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\phabricator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\phoenix-framework.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\phoenix-squadron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\php.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pied-piper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pied-piper-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pied-piper-hat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pied-piper-pp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pinterest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pinterest-p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pinterest-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\playstation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\product-hunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\python.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\qq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\quinscape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\quora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\raspberry-pi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ravelry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\react.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\reacteurope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\readme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\rebel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\reddit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\reddit-alien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\reddit-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\redhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\red-river.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\renren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\replyd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\researchgate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\resolving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\rev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\rocketchat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\rockrms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\r-project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\safari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\schlix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\scribd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\searchengin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sellcast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sellsy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\servicestack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\shirtsinbulk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\shopware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\simplybuilt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sistrix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sith.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sketch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\skyatlas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\skype.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\slack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\slack-hash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\slideshare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\snapchat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\snapchat-ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\snapchat-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\soundcloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sourcetree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\speakap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\spotify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\squarespace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stack-exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stack-overflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\staylinked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\steam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\steam-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\steam-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\sticker-mule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\strava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stripe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stripe-s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\studiovinari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stumbleupon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\stumbleupon-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\superpowers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\supple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\suse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\teamspeak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\telegram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\telegram-plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\tencent-weibo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\themeco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\themeisle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\the-red-yeti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\think-peaks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\trade-federation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\trello.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\tripadvisor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\tumblr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\tumblr-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\twitch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\twitter-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\typo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\uber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ubuntu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\uikit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\uniregistry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\untappd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ups.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\usb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\usps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\ussunnah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vaadin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\viacoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\viadeo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\viadeo-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\viber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vimeo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vimeo-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vimeo-v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\vuejs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\weebly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\weibo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\weixin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\whatsapp-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\whmcs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wikipedia-w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\windows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wizards-of-the-coast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wolf-pack-battalion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wordpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wordpress-simple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wpbeginner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wpexplorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wpforms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\wpressr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\xbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\xing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\xing-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yahoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yandex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yandex-international.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yarn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\y-combinator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\yoast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\youtube-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FontAwesome\Brands\zhihu.png" />
   </ItemGroup>
 </Project>

@@ -79,11 +79,10 @@ namespace ronoco.mobile.model
 
         private void SignUpEmailButton_Pressed(object sender, EventArgs e)
         {
-            NavigationPage navigation = new NavigationPage(new SignUpEmail());
-            navigation.BarBackgroundColor = Color.White;
-            navigation.BarTextColor = Color.Black;
+            RonocoNavigationPage navigation = new RonocoNavigationPage();
+            navigation = navigation.MakeWhiteBackButtonNavPage(new SignUpEmail());
             App.Current.MainPage = navigation;
-            navigation.PushAsync(new SignUpEmail());
+            // navigation.PushAsync(new SignUpEmail());
         }
     }
 }

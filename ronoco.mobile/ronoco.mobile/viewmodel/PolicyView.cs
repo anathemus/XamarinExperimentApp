@@ -81,7 +81,7 @@ namespace ronoco.mobile.viewmodel
             Label premiumLabel = new Label();
             premiumLabel = variableLabel.CreateVariableLabel(new Binding("PolicyPremiumString"));
 
-            BottomPolicyToolbar bottomToolbar = new BottomPolicyToolbar();
+            RonocoToolbar bottomToolbar = new RonocoToolbar().MakeBottomRonocoToolbar();
 
             Grid policyGrid = new Grid();
 

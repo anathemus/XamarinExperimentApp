@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    class BottomToolbarButton
+    public class RonocoToolbarButton : StackLayout
     {
         public event EventHandler ButtonTapped;
 
@@ -22,7 +22,22 @@ namespace ronoco.mobile.viewmodel
             ButtonTapped?.Invoke(this, e);
         }
 
-        public StackLayout GetBottomToolbarButton(ButtonType button)
+        public RonocoToolbarButton GetNavToolbarButton(Icon.IconType type, string unicodeIcon, Color color)
+        {
+            Icon icon = new Icon().MakeIconImage(type, unicodeIcon, color);
+
+            RonocoToolbarButton toolbarButton = new RonocoToolbarButton
+            {
+                Orientation = StackOrientation.Vertical,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                Children = { icon }
+            };
+
+            return toolbarButton;
+        }
+
+        public RonocoToolbarButton GetBottomToolbarButton(ButtonType button)
         {
             Icon buttonIcon = new Icon();
             string buttonText = "";
@@ -31,28 +46,28 @@ namespace ronoco.mobile.viewmodel
             switch (button)
             {
                 case ButtonType.Policies:
-                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf3ed", Color.FromRgb(80, 80, 100));
+                    buttonIcon = buttonIcon.MakeIconImage(Icon.IconType.Solid, "\uf3ed", Color.FromRgb(80, 80, 100));
                     buttonIcon.VerticalOptions = LayoutOptions.Center;
                     buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
                     buttonText = "Policies";
                     buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Assets:
-                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf550", Color.FromRgb(80, 80, 100));
+                    buttonIcon = buttonIcon.MakeIconImage(Icon.IconType.Solid, "\uf550", Color.FromRgb(80, 80, 100));
                     buttonIcon.VerticalOptions = LayoutOptions.Center;
                     buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
                     buttonText = "Assets";
                     buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Score:
-                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf3fd", Color.FromRgb(80, 80, 100));
+                    buttonIcon = buttonIcon.MakeIconImage(Icon.IconType.Solid, "\uf3fd", Color.FromRgb(80, 80, 100));
                     buttonIcon.VerticalOptions = LayoutOptions.Center;
                     buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
                     buttonText = "Score";
                     buttonTextLabel = new Label { Text = buttonText };
                     break;
                 case ButtonType.Advice:
-                    buttonIcon = buttonIcon.MakeIcon(Icon.IconType.Solid, "\uf470", Color.FromRgb(80, 80, 100));
+                    buttonIcon = buttonIcon.MakeIconImage(Icon.IconType.Solid, "\uf470", Color.FromRgb(80, 80, 100));
                     buttonIcon.VerticalOptions = LayoutOptions.Center;
                     buttonIcon.HorizontalOptions = LayoutOptions.CenterAndExpand;
                     buttonText = "Advice";
@@ -62,7 +77,7 @@ namespace ronoco.mobile.viewmodel
                     break;
             }
 
-            StackLayout bottomToolbarButton = new StackLayout
+            RonocoToolbarButton bottomToolbarButton = new RonocoToolbarButton
             {
                 Orientation = StackOrientation.Vertical,
                 VerticalOptions = LayoutOptions.CenterAndExpand,

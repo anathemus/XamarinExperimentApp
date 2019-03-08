@@ -13,8 +13,8 @@ namespace ronoco.mobile.view
     {
         public SignUpEmail()
         {
-            IconToolbarItem backArrow = new IconToolbarItem();
-            backArrow.Icon = new Icon().MakeIcon(viewmodel.Icon.IconType.Solid,"\uf060", Color.FromRgb(80, 80, 100)).Source as FileImageSource;
+            ToolbarItem backArrow = new ToolbarItem();
+            backArrow = new Icon().MakeToolbarIconText(viewmodel.Icon.IconType.Solid,"\uf060", Color.FromRgb(80, 80, 100));
             ToolbarItems.Add(backArrow);
 
             Padding = new Thickness(24, 0);
@@ -29,10 +29,10 @@ namespace ronoco.mobile.view
                 Text = "Sign up",
             };
 
-            EntryField emailEntry = new EntryField().CreateEntryField(new Icon().MakeIcon(viewmodel.Icon.IconType.Regular, 
+            EntryField emailEntry = new EntryField().CreateEntryField(new Icon().MakeIconImage(viewmodel.Icon.IconType.Regular, 
                 "\uf0e0", Color.FromRgb(80, 80, 100)), Keyboard.Email, false);
 
-            EntryField passEntry = new EntryField().CreateEntryField(new Icon().MakeIcon(viewmodel.Icon.IconType.Solid,
+            EntryField passEntry = new EntryField().CreateEntryField(new Icon().MakeIconImage(viewmodel.Icon.IconType.Solid,
                 "\uf023", Color.FromRgb(80, 80, 100)), Keyboard.Default, true);
 
             Button signUpSubmit = new Button

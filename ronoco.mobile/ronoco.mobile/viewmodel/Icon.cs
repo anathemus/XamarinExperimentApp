@@ -4,7 +4,7 @@ using FFImageLoading.Svg.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    internal class Icon : Image
+    public class Icon : Image
     {
         public enum IconType
         {
@@ -12,12 +12,37 @@ namespace ronoco.mobile.viewmodel
             Solid,
             Brand
         }
+
         public IconType Type { get; set; }
 
-        public Icon MakeIcon(IconType type, string unicodeIcon, Color iconColor)
+        public Icon MakeIconImage(IconType iconType, string unicodeIcon, Color iconColor)
         {
             Icon icon = new Icon();
+            string iconFontPath = MakeIcon(iconType);
 
+            icon.Source = new FontImageSource
+            {
+                Color = iconColor,
+                FontFamily = iconFontPath,
+                Size = 20,
+                Glyph = unicodeIcon
+            };
+
+            return icon;
+        }
+
+        public ToolbarItem MakeToolbarIconText(IconType iconType, string unicodeIcon, Color iconColor)
+        {
+            ToolbarItem toolbarItem = new ToolbarItem
+            {
+                Text = unicodeIcon
+            };
+
+            return toolbarItem;
+        }
+
+        string MakeIcon(IconType type)
+        {
             string fontPath = "";
             switch (type)
             {
@@ -64,15 +89,9 @@ namespace ronoco.mobile.viewmodel
                     throw new System.Exception("ERROR: IconType not specified!");
             }
 
-            icon.Source = new FontImageSource
-            {
-                Color = iconColor,
-                FontFamily = fontPath,
-                Size = 20,
-                Glyph = unicodeIcon
-            };
 
-            return icon;
+
+            return fontPath;
         }
     }
 }

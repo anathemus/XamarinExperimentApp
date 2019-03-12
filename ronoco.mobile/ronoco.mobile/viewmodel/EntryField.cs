@@ -13,6 +13,7 @@ namespace ronoco.mobile.viewmodel
 
             Entry entry = new Entry
             {
+                BackgroundColor = Color.FromRgb(230,230,230),
                 Keyboard = keyboard,
                 FontFamily = "SFUIText-Semibold",
                 FontSize = 16,

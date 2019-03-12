@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using FFImageLoading.Forms.Platform;
-using FFImageLoading.Svg.Forms;
+using PanCardView.iOS;
+using Xamarin.Forms;
 using Foundation;
 using UIKit;
 
@@ -23,10 +24,10 @@ namespace ronoco.mobile.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
-            global::Xamarin.Forms.Forms.Init();
             CachedImageRenderer.Init();
-            var ignore = typeof(SvgCachedImage);
+            CardsViewRenderer.Preserve();
+
+            global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -5,10 +5,8 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    public class RonocoToolbarButton : StackLayout
+    public class RonocoToolbarButton : Button
     {
-        public event EventHandler ButtonTapped;
-
         public enum ButtonType
         {
             Policies,
@@ -17,21 +15,18 @@ namespace ronoco.mobile.viewmodel
             Advice
         }
 
-        protected virtual void OnBottomButtonTapped(EventArgs e)
-        {
-            ButtonTapped?.Invoke(this, e);
-        }
-
         public RonocoToolbarButton GetNavToolbarButton(Icon.IconType type, string unicodeIcon, Color color)
         {
-            Icon icon = new Icon().MakeIconImage(type, unicodeIcon, color);
+            string iconPath = new Icon().MakeIconPath(type);
 
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton
             {
-                Orientation = StackOrientation.Vertical,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                Children = { icon }
+                FontFamily = iconPath,
+                FontSize = 20,
+                TextColor = color,
+                Text = unicodeIcon
             };
 
             return toolbarButton;
@@ -79,10 +74,10 @@ namespace ronoco.mobile.viewmodel
 
             RonocoToolbarButton bottomToolbarButton = new RonocoToolbarButton
             {
-                Orientation = StackOrientation.Vertical,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                Children = { buttonIcon, buttonTextLabel }
+                Image = buttonIcon.Source as FileImageSource,
+                Text = buttonText,
             };
 
             return bottomToolbarButton;

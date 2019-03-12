@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using ronoco.mobile.model;
@@ -13,9 +14,16 @@ namespace ronoco.mobile.view
     {
         public SignUpEmail()
         {
-            ToolbarItem backArrow = new ToolbarItem();
-            backArrow = new Icon().MakeToolbarIconText(viewmodel.Icon.IconType.Solid,"\uf060", Color.FromRgb(80, 80, 100));
-            ToolbarItems.Add(backArrow);
+            //RonocoToolbarButton backArrow = new RonocoToolbarButton();
+            //backArrow = backArrow.GetNavToolbarButton(viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100));
+            //backArrow.ButtonTapped += BackArrow_ButtonTapped;
+
+            //RonocoToolbar toolbar = new RonocoToolbar().MakeRonocoToolbar(Color.White);
+
+            //toolbar.ToolbarButtons = new ObservableCollection<RonocoToolbarButton>
+            //{
+            //    backArrow
+            //};
 
             Padding = new Thickness(24, 0);
             BackgroundColor = Color.White;
@@ -43,7 +51,7 @@ namespace ronoco.mobile.view
                 TextColor = Color.White,
                 Text = "GET STARTED",
                 HorizontalOptions = LayoutOptions.Center,
-                CornerRadius = 45,
+                CornerRadius = 25,
                 WidthRequest = 272,
                 HeightRequest = 48
             };
@@ -70,12 +78,20 @@ namespace ronoco.mobile.view
             grid.Children.Add(passEntry, 1, 4);
             grid.Children.Add(signUpSubmit, 1, 6);
 
+            //ContentPage page = new ContentPage();
             Content = grid;
+
+            //Content = new RonocoNavigationPage().CreateRonocoWithToolbar(page, toolbar, RonocoToolbar.ToolbarType.Top).Content;
+        }
+
+        private async void BackArrow_ButtonTapped(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
         }
 
         private void SignUpSubmit_Pressed(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PolicyListView());
+            App.Current.MainPage = new PolicyListView();
         }
     }
 }

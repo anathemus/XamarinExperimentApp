@@ -4,6 +4,8 @@ using System.Text;
 using Xamarin.Forms;
 using ronoco.mobile.viewmodel;
 using ronoco.mobile.view;
+using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 
 namespace ronoco.mobile.model
 {
@@ -24,7 +26,7 @@ namespace ronoco.mobile.model
                 BorderColor = Color.FromRgb(70, 120, 200),
                 HorizontalOptions = LayoutOptions.Center,
                 Text = "SIGN IN",
-                CornerRadius = 45,
+                CornerRadius = Convert.ToInt32(App.Current.MainPage.Width / 15),
                 WidthRequest = 272,
                 HeightRequest = 48,
                 BorderWidth = 1
@@ -39,12 +41,11 @@ namespace ronoco.mobile.model
                 BorderColor = Color.FromRgb(70, 120, 200),
                 HorizontalOptions = LayoutOptions.Center,
                 Text = "SIGN UP WITH EMAIL",
-                CornerRadius = 45,
+                CornerRadius = Convert.ToInt32(App.Current.MainPage.Width / 15),
                 WidthRequest = 272,
                 HeightRequest = 48,
                 BorderWidth = 1,
             };
-            signUpEmailButton.Pressed += SignUpEmailButton_Pressed;
 
             signUpFacebookButton = new Button
             {
@@ -55,7 +56,7 @@ namespace ronoco.mobile.model
                 BorderColor = Color.FromRgb(59, 89, 152),
                 HorizontalOptions = LayoutOptions.End,
                 Text = "SIGN UP",
-                CornerRadius = 45,
+                CornerRadius = Convert.ToInt32(App.Current.MainPage.Width / 15),
                 WidthRequest = 132,
                 HeightRequest = 48,
                 BorderWidth = 1
@@ -70,19 +71,11 @@ namespace ronoco.mobile.model
                 BorderColor = Color.FromRgb(211, 72, 54),
                 HorizontalOptions = LayoutOptions.Start,
                 Text = "SIGN UP",
-                CornerRadius = 45,
+                CornerRadius = Convert.ToInt32(App.Current.MainPage.Width / 15),
                 WidthRequest = 132,
                 HeightRequest = 48,
                 BorderWidth = 1
             };
-        }
-
-        private void SignUpEmailButton_Pressed(object sender, EventArgs e)
-        {
-            RonocoNavigationPage navigation = new RonocoNavigationPage();
-            navigation = navigation.MakeWhiteBackButtonNavPage(new SignUpEmail());
-            App.Current.MainPage = navigation;
-            // navigation.PushAsync(new SignUpEmail());
         }
     }
 }

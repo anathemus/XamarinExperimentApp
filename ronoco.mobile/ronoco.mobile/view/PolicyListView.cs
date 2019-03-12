@@ -42,7 +42,8 @@ namespace ronoco.mobile.view
         {
             PolicyPage page = new PolicyPage { TappedIndex = e.SelectedItemIndex };
             page = page.GetPolicy();
-            Navigation.PushAsync(page);
+            // Navigation.PushAsync(page);
+            App.Current.MainPage = page;
         }
     }
 }

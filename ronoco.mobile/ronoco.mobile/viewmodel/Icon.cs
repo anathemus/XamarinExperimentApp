@@ -18,14 +18,14 @@ namespace ronoco.mobile.viewmodel
         public Icon MakeIconImage(IconType iconType, string unicodeIcon, Color iconColor)
         {
             Icon icon = new Icon();
-            string iconFontPath = MakeIcon(iconType);
+            string iconFontPath = MakeIconPath(iconType);
 
             icon.Source = new FontImageSource
             {
                 Color = iconColor,
                 FontFamily = iconFontPath,
                 Size = 20,
-                Glyph = unicodeIcon
+                Glyph = unicodeIcon,
             };
 
             return icon;
@@ -41,7 +41,7 @@ namespace ronoco.mobile.viewmodel
             return toolbarItem;
         }
 
-        string MakeIcon(IconType type)
+        public string MakeIconPath(IconType type)
         {
             string fontPath = "";
             switch (type)
@@ -50,7 +50,7 @@ namespace ronoco.mobile.viewmodel
                     switch (Device.RuntimePlatform)
                     {
                         case Device.iOS:
-                            fontPath = "Font Awesome 5 Free Regular";
+                            fontPath = "Font Awesome 5 Free";
                             break;
                         case Device.Android:
                             fontPath = "fa-regular-400.ttf#Font Awesome 5 Free Regular";
@@ -76,10 +76,10 @@ namespace ronoco.mobile.viewmodel
                     switch (Device.RuntimePlatform)
                     {
                         case Device.iOS:
-                            fontPath = "Font Awesome 5 Free Brands";
+                            fontPath = "Font Awesome 5 Brands";
                             break;
                         case Device.Android:
-                            fontPath = "fa-brands-400.ttf#Font Awesome 5 Free Brands";
+                            fontPath = "fa-brands-400.ttf#Font Awesome 5 Free Brands Regular";
                             break;
                         default:
                             break;

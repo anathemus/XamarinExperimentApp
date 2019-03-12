@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    public class RonocoToolbarButton : Button
+    public class RonocoToolbarButton : ImageButton
     {
         public enum ButtonType
         {
@@ -17,16 +17,13 @@ namespace ronoco.mobile.viewmodel
 
         public RonocoToolbarButton GetNavToolbarButton(Icon.IconType type, string unicodeIcon, Color color)
         {
-            string iconPath = new Icon().MakeIconPath(type);
+            Icon icon = new Icon().MakeIconImage(type, unicodeIcon, color);
 
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton
             {
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                FontFamily = iconPath,
-                FontSize = 20,
-                TextColor = color,
-                Text = unicodeIcon
+                Source = icon.Source
             };
 
             return toolbarButton;
@@ -76,8 +73,7 @@ namespace ronoco.mobile.viewmodel
             {
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                Image = buttonIcon.Source as FileImageSource,
-                Text = buttonText,
+                Source = buttonIcon.Source
             };
 
             return bottomToolbarButton;

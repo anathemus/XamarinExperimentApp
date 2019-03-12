@@ -8,12 +8,12 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    public class RonocoNavigationPage : ContentPage
+    public class RonocoToolbarPage : ContentPage
     {
         public RonocoToolbar TopNavBar { get; set; }
         public RonocoToolbar BottomToolBar { get; set; }
-        public RonocoNavigationPage() { }
-        public RonocoNavigationPage(ContentPage page)
+        public RonocoToolbarPage() { }
+        public RonocoToolbarPage(ContentPage page)
         {
             // use NavigationPage.SetHasNavigationBar(Page, bool) to hide Native NavigationBar (bool must be false)
             NavigationPage.SetHasNavigationBar(page, false);
@@ -102,9 +102,9 @@ namespace ronoco.mobile.viewmodel
 
             return content;
         }
-        //public RonocoNavigationPage MakeWhiteBackButtonNavPage(ContentPage page)
+        //public RonocoToolbarPage MakeWhiteBackButtonNavPage(ContentPage page)
         //{
-        //    RonocoNavigationPage navigationPage = new RonocoNavigationPage();
+        //    RonocoToolbarPage navigationPage = new RonocoToolbarPage();
         //    ObservableCollection<RonocoToolbarButton> buttons = new ObservableCollection<RonocoToolbarButton>
         //    {
         //            new RonocoToolbarButton().GetNavToolbarButton(ronoco.mobile.viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100))

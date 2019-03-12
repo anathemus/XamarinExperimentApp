@@ -41,10 +41,10 @@ namespace ronoco.mobile.viewmodel
             // requiring paramater of BottomToolbarButton.ButtonType
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton();
 
-            Button policyButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Policies);
-            Button assetsButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Assets);
-            Button scoreButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Score);
-            Button adviceButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Advice);
+            ImageButton policyButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Policies);
+            ImageButton assetsButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Assets);
+            ImageButton scoreButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Score);
+            ImageButton adviceButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Advice);
 
             bottomToolbar.Children.Add(policyButton);
             bottomToolbar.Children.Add(assetsButton);

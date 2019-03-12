@@ -96,25 +96,10 @@ namespace ronoco.mobile.view
 
         private void SignUpEmailButton_Pressed(object sender, EventArgs e)
         {
-            RonocoToolbar toolbar = new RonocoToolbar().MakeRonocoToolbar(Color.White);
-            RonocoToolbarButton toolbarButton = new RonocoToolbarButton().GetNavToolbarButton(ronoco.mobile.viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100));
-            toolbarButton.HorizontalOptions = LayoutOptions.Start;
-            toolbarButton.BackgroundColor = Color.White;
-            toolbarButton.Clicked += BackButton_Tapped;
-
-            toolbar = toolbar.AddToolbarButton(toolbar, toolbarButton);
-
             SignUpEmail emailPage = new SignUpEmail();
+            NavigationPage.SetHasNavigationBar(emailPage, false);
 
-            ContentPage emailContent = new RonocoNavigationPage().CreateRonocoWithToolbar(emailPage, toolbar, RonocoToolbar.ToolbarType.Top);
-            NavigationPage.SetHasNavigationBar(emailContent, false);
-
-            Navigation.PushAsync(emailContent);
-        }
-
-        private void BackButton_Tapped(object sender, EventArgs e)
-        {
-            Navigation.PopAsync();
+            Navigation.PushAsync(emailPage);
         }
     }
 }

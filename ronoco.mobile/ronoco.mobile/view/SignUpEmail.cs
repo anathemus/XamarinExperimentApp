@@ -14,16 +14,20 @@ namespace ronoco.mobile.view
     {
         public SignUpEmail()
         {
-            //RonocoToolbarButton backArrow = new RonocoToolbarButton();
-            //backArrow = backArrow.GetNavToolbarButton(viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100));
-            //backArrow.ButtonTapped += BackArrow_ButtonTapped;
+            RonocoToolbar toolbar = new RonocoToolbar().MakeRonocoToolbar(Color.White);
+            Icon icon = new Icon().MakeIconImage(ronoco.mobile.viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100));
+            RonocoToolbarButton toolbarButton = new RonocoToolbarButton
+            {
+                Source = icon.Source
+            };
+            toolbarButton.HorizontalOptions = LayoutOptions.Start;
+            toolbarButton.VerticalOptions = LayoutOptions.Center;
+            toolbarButton.BackgroundColor = Color.White;
+            toolbarButton.Clicked += BackButton_Tapped;
 
-            //RonocoToolbar toolbar = new RonocoToolbar().MakeRonocoToolbar(Color.White);
-
-            //toolbar.ToolbarButtons = new ObservableCollection<RonocoToolbarButton>
-            //{
-            //    backArrow
-            //};
+            toolbar.Padding = new Thickness(0, 15, 0, 0);
+            toolbar.VerticalOptions = LayoutOptions.Center;
+            toolbar = toolbar.AddToolbarButton(toolbar, toolbarButton);
 
             Padding = new Thickness(24, 0);
             BackgroundColor = Color.White;
@@ -59,6 +63,7 @@ namespace ronoco.mobile.view
 
             Grid grid = new Grid();
 
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(34, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(27, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
@@ -73,25 +78,27 @@ namespace ronoco.mobile.view
             grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(272, GridUnitType.Absolute) });
             grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
 
-            grid.Children.Add(signUpTitle, 1, 0);
-            grid.Children.Add(emailEntry, 1, 2);
-            grid.Children.Add(passEntry, 1, 4);
-            grid.Children.Add(signUpSubmit, 1, 6);
+            grid.Children.Add(toolbar, 0, 0);
+            Grid.SetColumnSpan(toolbar, 3);
+            grid.Children.Add(signUpTitle, 1, 1);
+            grid.Children.Add(emailEntry, 1, 3);
+            grid.Children.Add(passEntry, 1, 5);
+            grid.Children.Add(signUpSubmit, 1, 7);
 
-            //ContentPage page = new ContentPage();
+            //Grab the content from the Grid, then add the toolbar
             Content = grid;
-
-            //Content = new RonocoNavigationPage().CreateRonocoWithToolbar(page, toolbar, RonocoToolbar.ToolbarType.Top).Content;
         }
 
-        private async void BackArrow_ButtonTapped(object sender, EventArgs e)
+        private void BackButton_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PopAsync();
+            Navigation.PopAsync();
         }
 
         private void SignUpSubmit_Pressed(object sender, EventArgs e)
         {
-            App.Current.MainPage = new PolicyListView();
+            PolicyListView listView = new PolicyListView();
+            NavigationPage.SetHasNavigationBar(listView, false);
+            Navigation.PushAsync(listView);
         }
     }
 }

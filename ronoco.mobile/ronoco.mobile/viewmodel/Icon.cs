@@ -8,7 +8,6 @@ namespace ronoco.mobile.viewmodel
     {
         public enum IconType
         {
-            Regular,
             Solid,
             Brand
         }
@@ -31,14 +30,19 @@ namespace ronoco.mobile.viewmodel
             return icon;
         }
 
-        public ToolbarItem MakeToolbarIconText(IconType iconType, string unicodeIcon, Color iconColor)
+        public Icon MakeIconText(string iconText, Color iconColor)
         {
-            ToolbarItem toolbarItem = new ToolbarItem
+            Icon icon = new Icon();
+
+            icon.Source = new FontImageSource
             {
-                Text = unicodeIcon
+                Color = iconColor,
+                FontFamily = "SFUIText-Semibold",
+                Size = 16,
+                Glyph = iconText
             };
 
-            return toolbarItem;
+            return icon;
         }
 
         public string MakeIconPath(IconType type)
@@ -46,24 +50,11 @@ namespace ronoco.mobile.viewmodel
             string fontPath = "";
             switch (type)
             {
-                case IconType.Regular:
-                    switch (Device.RuntimePlatform)
-                    {
-                        case Device.iOS:
-                            fontPath = "Font Awesome 5 Free";
-                            break;
-                        case Device.Android:
-                            fontPath = "fa-regular-400.ttf#Font Awesome 5 Free Regular";
-                            break;
-                        default:
-                            break;
-                    }
-                    break;
                 case IconType.Solid:
                     switch (Device.RuntimePlatform)
                     {
                         case Device.iOS:
-                            fontPath = "Font Awesome 5 Free Solid";
+                            fontPath = "Font Awesome 5 Free";
                             break;
                         case Device.Android:
                             fontPath = "fa-solid-900.ttf#Font Awesome 5 Free Solid";

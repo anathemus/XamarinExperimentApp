@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using ronoco.mobile.model;
@@ -16,14 +17,16 @@ namespace ronoco.mobile.view
         {
             RonocoToolbar toolbar = new RonocoToolbar().MakeRonocoToolbar(Color.White);
             Icon icon = new Icon().MakeIconImage(ronoco.mobile.viewmodel.Icon.IconType.Solid, "\uf060", Color.FromRgb(80, 80, 100));
+            TapGestureRecognizer tap = new TapGestureRecognizer();
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton
             {
-                Source = icon.Source
+                Children = { icon }
             };
+            toolbarButton.GestureRecognizers.Add(tap);
             toolbarButton.HorizontalOptions = LayoutOptions.Start;
             toolbarButton.VerticalOptions = LayoutOptions.Center;
             toolbarButton.BackgroundColor = Color.White;
-            toolbarButton.Clicked += BackButton_Tapped;
+            (toolbarButton.GestureRecognizers.ElementAt(0) as TapGestureRecognizer).Tapped += BackButton_Tapped;
 
             toolbar.Padding = new Thickness(0, 15, 0, 0);
             toolbar.VerticalOptions = LayoutOptions.Center;
@@ -41,7 +44,7 @@ namespace ronoco.mobile.view
                 Text = "Sign up",
             };
 
-            EntryField emailEntry = new EntryField().CreateEntryField(new Icon().MakeIconImage(viewmodel.Icon.IconType.Regular, 
+            EntryField emailEntry = new EntryField().CreateEntryField(new Icon().MakeIconImage(viewmodel.Icon.IconType.Solid, 
                 "\uf0e0", Color.FromRgb(80, 80, 100)), Keyboard.Email, false);
 
             EntryField passEntry = new EntryField().CreateEntryField(new Icon().MakeIconImage(viewmodel.Icon.IconType.Solid,
@@ -63,7 +66,6 @@ namespace ronoco.mobile.view
 
             Grid grid = new Grid();
 
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(34, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(27, GridUnitType.Absolute) });
             grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
@@ -78,15 +80,13 @@ namespace ronoco.mobile.view
             grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(272, GridUnitType.Absolute) });
             grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
 
-            grid.Children.Add(toolbar, 0, 0);
-            Grid.SetColumnSpan(toolbar, 3);
-            grid.Children.Add(signUpTitle, 1, 1);
-            grid.Children.Add(emailEntry, 1, 3);
-            grid.Children.Add(passEntry, 1, 5);
-            grid.Children.Add(signUpSubmit, 1, 7);
+            grid.Children.Add(signUpTitle, 1, 0);
+            grid.Children.Add(emailEntry, 1, 2);
+            grid.Children.Add(passEntry, 1, 4);
+            grid.Children.Add(signUpSubmit, 1, 6);
 
-            //Grab the content from the Grid, then add the toolbar
             Content = grid;
+            Content = new RonocoToolbarPage().CreateRonocoWithToolbar(this, toolbar, RonocoToolbar.ToolbarType.Top).Content;
         }
 
         private void BackButton_Tapped(object sender, EventArgs e)
@@ -94,11 +94,11 @@ namespace ronoco.mobile.view
             Navigation.PopAsync();
         }
 
-        private void SignUpSubmit_Pressed(object sender, EventArgs e)
+        private async void SignUpSubmit_Pressed(object sender, EventArgs e)
         {
             PolicyListView listView = new PolicyListView();
-            NavigationPage.SetHasNavigationBar(listView, false);
-            Navigation.PushAsync(listView);
+
+            await Navigation.PushAsync(listView);
         }
     }
 }

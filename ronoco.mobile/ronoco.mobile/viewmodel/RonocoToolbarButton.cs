@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace ronoco.mobile.viewmodel
 {
-    public class RonocoToolbarButton : ImageButton
+    public class RonocoToolbarButton : StackLayout
     {
         public enum ButtonType
         {
@@ -18,13 +18,31 @@ namespace ronoco.mobile.viewmodel
         public RonocoToolbarButton GetNavToolbarButton(Icon.IconType type, string unicodeIcon, Color color)
         {
             Icon icon = new Icon().MakeIconImage(type, unicodeIcon, color);
+            TapGestureRecognizer tap = new TapGestureRecognizer();
+
+            RonocoToolbarButton toolbarButton = new RonocoToolbarButton
+            {
+                Orientation = StackOrientation.Vertical,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                Children = { icon }
+            };
+            toolbarButton.GestureRecognizers.Add(tap);
+
+            return toolbarButton;
+        }
+
+        public RonocoToolbarButton GetTabToolbarButton(string iconText, Color color)
+        {
+            Icon icon = new Icon().MakeIconText(iconText, color);
+            TapGestureRecognizer tap = new TapGestureRecognizer();
 
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton
             {
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                HorizontalOptions = LayoutOptions.CenterAndExpand,
-                Source = icon.Source
+                Children = { icon }
             };
+            toolbarButton.GestureRecognizers.Add(tap);
 
             return toolbarButton;
         }
@@ -73,8 +91,9 @@ namespace ronoco.mobile.viewmodel
             {
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-                Source = buttonIcon.Source
+                Children = { buttonIcon, buttonTextLabel }
             };
+            bottomToolbarButton.GestureRecognizers.Add(new TapGestureRecognizer());
 
             return bottomToolbarButton;
         }

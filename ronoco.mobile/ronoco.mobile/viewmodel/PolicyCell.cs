@@ -4,6 +4,7 @@ using System.Text;
 using Xamarin.Forms;
 using ronoco.mobile.model;
 using ronoco.mobile.interfaces;
+using System.Diagnostics;
 
 namespace ronoco.mobile.viewmodel
 {

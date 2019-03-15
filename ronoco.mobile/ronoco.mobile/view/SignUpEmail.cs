@@ -64,29 +64,19 @@ namespace ronoco.mobile.view
             };
             signUpSubmit.Pressed += SignUpSubmit_Pressed;
 
-            Grid grid = new Grid();
 
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(34, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(27, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(8, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(50, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(16, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
 
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(272, GridUnitType.Absolute) });
-            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            Grid grid = constants.RonocoGrid.RonocoBackArrowGrid;
 
-            grid.Children.Add(signUpTitle, 1, 0);
-            grid.Children.Add(emailEntry, 1, 2);
-            grid.Children.Add(passEntry, 1, 4);
-            grid.Children.Add(signUpSubmit, 1, 6);
+            grid.BackgroundColor = Color.White;
+            grid.Children.Add(toolbar, 0, 0);
+            Grid.SetColumnSpan(toolbar, 3);
+            grid.Children.Add(signUpTitle, 1, 1);
+            grid.Children.Add(emailEntry, 1, 3);
+            grid.Children.Add(passEntry, 1, 5);
+            grid.Children.Add(signUpSubmit, 1, 7);
 
             Content = grid;
-            Content = new RonocoToolbarPage().CreateRonocoWithToolbar(this, toolbar, RonocoToolbar.ToolbarType.Top).Content;
         }
 
         private void BackButton_Tapped(object sender, EventArgs e)

@@ -52,7 +52,9 @@ namespace ronoco.mobile.view
             _carouselView.ItemsSource = source;
             _carouselView.SelectedIndex = TappedIndex;
             Title = "Policy";
-            return new PolicyPage { Content = _carouselView };
+            Content = _carouselView;
+
+            return this;
         }
         private View GetPolicyCard() => new PolicyView();
     }

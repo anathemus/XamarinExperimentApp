@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using ronoco.mobile.tests;
 
 using Xamarin.Forms;
 
@@ -81,29 +83,52 @@ namespace ronoco.mobile.viewmodel
             Label premiumLabel = new Label();
             premiumLabel = variableLabel.CreateVariableLabel(new Binding("PolicyPremiumString"));
 
-            RonocoToolbar bottomToolbar = new RonocoToolbar().MakeBottomRonocoToolbar();
+            RonocoToolbar bottomToolbar = new RonocoToolbar().MakeBottomRonocoToolbar(Color.FromRgb(202, 202, 208), Color.FromRgb(80, 80, 100));
+
+            TapGestureRecognizer backTap = new TapGestureRecognizer();
+            RonocoToolbarButton backButton = new RonocoToolbarButton();
+            backButton = backButton.GetNavToolbarButton(Icon.IconType.Solid, "\uf060", Color.White);
+            backButton.BackgroundColor = Color.FromRgb(70, 120, 200);
+            backButton.HorizontalOptions = LayoutOptions.StartAndExpand;
+            backButton.GestureRecognizers.Add(backTap);
+            backTap.Tapped += BackTap_Tapped;
+
+            Label titleLabel = new Label
+            {
+                FontFamily = "SFUIText-Semibold",
+                FontSize = 16,
+                TextColor = Color.White,
+                Text = "Policies",
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            Icon plusIcon = new Icon().MakeIconImage(viewmodel.Icon.IconType.Solid, "\uf067", Color.White);
+            TapGestureRecognizer plusTap = new TapGestureRecognizer();
+
+            RonocoToolbarButton plusMiniMenuButton = new RonocoToolbarButton
+            {
+                HorizontalOptions = LayoutOptions.EndAndExpand,
+                VerticalOptions = LayoutOptions.Center,
+                Children = { plusIcon }
+            };
+            plusMiniMenuButton.GestureRecognizers.Add(plusTap);
+            plusTap.Tapped += PlusMiniMenuButton_Clicked;
+
+            RonocoToolbar topToolbar = new RonocoToolbar().MakeRonocoToolbar(Color.FromRgb(70, 120, 200));
+            topToolbar.Padding = new Thickness(10, 0);
+            topToolbar.Children.Add(backButton);
+            topToolbar.Children.Add(titleLabel);
+            topToolbar.Children.Add(plusMiniMenuButton);
 
             Grid policyGrid = new Grid();
+            constants.RonocoGrid constantsGrid = new constants.RonocoGrid();
+            policyGrid = constantsGrid.RonocoPolicyViewGrid;
 
-            policyGrid.RowSpacing = 0;
-            policyGrid.ColumnSpacing = 0;
+            policyGrid.Children.Add(topToolbar, 0, 0);
+            Grid.SetColumnSpan(topToolbar, 4);
 
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(72, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(28, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(41, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(41, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(41, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(41, GridUnitType.Absolute) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            policyGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
-
-            policyGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(48, GridUnitType.Absolute) });
-            policyGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            policyGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            policyGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(48, GridUnitType.Absolute) });
-
-            policyGrid.Children.Add(policyImages, 0, 0);
+            policyGrid.Children.Add(policyImages, 0, 1);
             Grid.SetColumnSpan(policyImages, 4);
 
             //BoxView to create grey row appearance for policyIcon and policyNameLabel
@@ -121,49 +146,60 @@ namespace ronoco.mobile.viewmodel
             rowLineTwo = rowLine.AddGreyRowLine();
             rowLineThree = rowLine.AddGreyRowLine();
 
-            policyGrid.Children.Add(greyPolicyNameView, 0, 1);
+            policyGrid.Children.Add(greyPolicyNameView, 0, 2);
             Grid.SetColumnSpan(greyPolicyNameView, 4);
 
-            policyGrid.Children.Add(policyIconLayout, 0, 1);
+            policyGrid.Children.Add(policyIconLayout, 0, 2);
             Grid.SetColumnSpan(policyIconLayout, 2);
 
-            policyGrid.Children.Add(policyNameLabel, 0, 1);
+            policyGrid.Children.Add(policyNameLabel, 0, 2);
             Grid.SetColumnSpan(policyNameLabel, 4);
 
-            policyGrid.Children.Add(companyStaticLabel, 1,3);
+            policyGrid.Children.Add(companyStaticLabel, 1,4);
 
-            policyGrid.Children.Add(companyLabel, 2, 3);
+            policyGrid.Children.Add(companyLabel, 2, 4);
 
-            policyGrid.Children.Add(rowLineOne, 1, 3);
+            policyGrid.Children.Add(rowLineOne, 1, 4);
             Grid.SetColumnSpan(rowLineOne, 2);
 
-            policyGrid.Children.Add(policyNumberStaticLabel, 1, 4);
+            policyGrid.Children.Add(policyNumberStaticLabel, 1, 5);
 
-            policyGrid.Children.Add(policyNumberLabel, 2, 4);
+            policyGrid.Children.Add(policyNumberLabel, 2, 5);
 
-            policyGrid.Children.Add(rowLineTwo, 1, 4);
+            policyGrid.Children.Add(rowLineTwo, 1, 5);
             Grid.SetColumnSpan(rowLineTwo, 2);
 
-            policyGrid.Children.Add(expirationDateStaticLabel, 1, 5);
+            policyGrid.Children.Add(expirationDateStaticLabel, 1, 6);
 
-            policyGrid.Children.Add(expirationDateLabel, 2, 5);
+            policyGrid.Children.Add(expirationDateLabel, 2, 6);
 
-            policyGrid.Children.Add(rowLineThree, 1, 5);
+            policyGrid.Children.Add(rowLineThree, 1, 6);
             Grid.SetColumnSpan(rowLineThree, 2);
 
-            policyGrid.Children.Add(premiumStaticLabel, 1, 6);
+            policyGrid.Children.Add(premiumStaticLabel, 1, 7);
 
-            policyGrid.Children.Add(premiumLabel, 2, 6);
+            policyGrid.Children.Add(premiumLabel, 2, 7);
 
-            policyGrid.Children.Add(bottomToolbar, 0, 8);
+            policyGrid.Children.Add(bottomToolbar, 0, 9);
             Grid.SetColumnSpan(bottomToolbar, 4);
 
             ScrollView policyScroller = new ScrollView
             {
-                Content = policyGrid
+                Content = policyGrid,
+                HeightRequest = App.Current.MainPage.Height
             };
 
             Content = policyScroller;
+        }
+
+        private async void BackTap_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+
+        private void PlusMiniMenuButton_Clicked(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Under Construction!");
         }
     }
 }

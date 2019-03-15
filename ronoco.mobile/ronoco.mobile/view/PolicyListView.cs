@@ -71,45 +71,26 @@ namespace ronoco.mobile.view
             (plusMiniMenuButton.GestureRecognizers.ElementAt(0) as TapGestureRecognizer).Tapped += PlusMiniMenuButton_Clicked;
 
             RonocoToolbar listToolbar = new RonocoToolbar().MakeRonocoToolbar(Color.FromRgb(70, 120, 200));
-            listToolbar.Padding = new Thickness(5, 0);
+            listToolbar.Padding = new Thickness(10, 0);
             listToolbar.Children.Add(menuButton);
             listToolbar.Children.Add(titleLabel);
             listToolbar.Children.Add(plusMiniMenuButton);
 
-            RonocoToolbar bottomToolbar = new RonocoToolbar().MakeBottomRonocoToolbar();
+            RonocoToolbar bottomToolbar = new RonocoToolbar().MakeBottomRonocoToolbar(Color.FromRgb(202, 202, 208), Color.FromRgb(80, 80, 100));
 
             StackLayout layout = new StackLayout();
             layout.Orientation = StackOrientation.Horizontal;
-            Grid tabbedNavListGrid =new Grid
-            {
-                HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                ColumnSpacing = 0,
-                RowSpacing = 0,
-                Padding = 0
-            };
-
-            tabbedNavListGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) });
-            tabbedNavListGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) });
-            tabbedNavListGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
-            tabbedNavListGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) });
-
-            tabbedNavListGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            tabbedNavListGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            Grid tabbedNavListGrid = constants.RonocoGrid.RonocoTopBottomToolbarsTabsGrid;
 
             // Tab Buttons defined here to get dimensions of instantiated grid and pass the Button object to Grid.Children
             RonocoToolbarButton activeButton = new RonocoToolbarButton().GetTabToolbarButton("Active", Color.White);
             activeButton.BackgroundColor = Color.FromRgb(70, 120, 200);
-            activeButton.HorizontalOptions = LayoutOptions.FillAndExpand;
-            activeButton.VerticalOptions = LayoutOptions.FillAndExpand;
-            activeButton.Padding = new Thickness(8);
+            activeButton.Padding = new Thickness(0, 8);
             (activeButton.GestureRecognizers.ElementAt(0) as TapGestureRecognizer).Tapped += ActiveButton_Clicked;
 
             RonocoToolbarButton previousButton = new RonocoToolbarButton().GetTabToolbarButton("Previous", Color.White);
             previousButton.BackgroundColor = Color.FromRgb(70, 120, 200);
-            previousButton.HorizontalOptions = LayoutOptions.FillAndExpand;
-            previousButton.VerticalOptions = LayoutOptions.FillAndExpand;
-            previousButton.Padding = new Thickness(8);
+            previousButton.Padding = new Thickness(0, 8);
             (previousButton.GestureRecognizers.ElementAt(0) as TapGestureRecognizer).Tapped += PreviousButton_Clicked;
 
             tabbedNavListGrid.Children.Add(listToolbar, 0, 0);
@@ -133,6 +114,7 @@ namespace ronoco.mobile.view
             Grid.SetColumnSpan(activePolicyListView, 2);
             tabbedNavListGrid.Children.Add(previousPolicyListView, 0, 2);
             Grid.SetColumnSpan(previousPolicyListView, 2);
+
             tabbedNavListGrid.Children.Add(bottomToolbar, 0, 3);
             Grid.SetColumnSpan(bottomToolbar, 2);
 

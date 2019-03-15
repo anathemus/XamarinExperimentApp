@@ -29,10 +29,10 @@ namespace ronoco.mobile.viewmodel
             return this;
         }
 
-        public RonocoToolbar MakeBottomRonocoToolbar()
+        public RonocoToolbar MakeBottomRonocoToolbar(Color backgroundColor, Color fontColor)
         {
             RonocoToolbar bottomToolbar = new RonocoToolbar();
-            bottomToolbar.BackgroundColor = Color.FromRgb(202, 202, 208);
+            bottomToolbar.BackgroundColor = backgroundColor;
             bottomToolbar.Orientation = StackOrientation.Horizontal;
             bottomToolbar.HeightRequest = 48;
             bottomToolbar.WidthRequest = App.Current.MainPage.Width;
@@ -43,10 +43,10 @@ namespace ronoco.mobile.viewmodel
             // requiring paramater of BottomToolbarButton.ButtonType
             RonocoToolbarButton toolbarButton = new RonocoToolbarButton();
 
-            StackLayout policyButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Policies);
-            StackLayout assetsButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Assets);
-            StackLayout scoreButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Score);
-            StackLayout adviceButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Advice);
+            StackLayout policyButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Policies, fontColor);
+            StackLayout assetsButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Assets, fontColor);
+            StackLayout scoreButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Score, fontColor);
+            StackLayout adviceButton = toolbarButton.GetBottomToolbarButton(RonocoToolbarButton.ButtonType.Advice, fontColor);
 
             bottomToolbar.Children.Add(policyButton);
             bottomToolbar.Children.Add(assetsButton);

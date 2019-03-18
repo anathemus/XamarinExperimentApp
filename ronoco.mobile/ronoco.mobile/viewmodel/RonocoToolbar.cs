@@ -24,8 +24,8 @@ namespace ronoco.mobile.viewmodel
             HeightRequest = 64;
             WidthRequest = App.Current.MainPage.Width;
             Padding = new Thickness(0, 0, 0, 0);
-            HorizontalOptions = LayoutOptions.CenterAndExpand;
-            VerticalOptions = LayoutOptions.Center;
+            HorizontalOptions = LayoutOptions.FillAndExpand;
+            VerticalOptions = LayoutOptions.FillAndExpand;
             return this;
         }
 

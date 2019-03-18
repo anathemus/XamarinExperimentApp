@@ -13,6 +13,9 @@ namespace ronoco.mobile.tests
 
             account.SetUsername("demo");
             account.SetMemberSince(DateTime.Parse("03/04/2019"));
+            account.SetFirstname("Jennifer");
+            account.SetLastname("Genacco");
+            account.SetEmail("jen@gmail.com");
 
             List<Policy> policies = new List<Policy>
             {

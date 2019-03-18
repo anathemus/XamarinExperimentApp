@@ -220,4 +220,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\avatarJenniferGenacco.png" />
+  </ItemGroup>
 </Project>

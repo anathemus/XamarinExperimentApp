@@ -25,7 +25,7 @@ namespace ronoco.mobile
             LaunchScreen launchScreen = new LaunchScreen();
             NavigationPage.SetHasNavigationBar(launchScreen, false);
             NavigationPage navigationPage = new NavigationPage(launchScreen);
-            
+            navigationPage.BarBackgroundColor = Color.White;
 
             // MainPage must be of type NavigationPage to enable Navigation Stack
             MainPage = navigationPage;

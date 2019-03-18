@@ -6,12 +6,39 @@ namespace ronoco.mobile.model
 {
     class Account
     {
+        private string Firstname;
+        private string Lastname;
+        private string EmailAddress;
         private string Username;
         private string Password;
         private DateTime MemberSince;
         private List<Policy> Policies;
         private List<Setting> Settings;
 
+        public string GetFirstname()
+        {
+            return Firstname;
+        }
+        public void SetFirstname(string firstName)
+        {
+            this.Firstname = firstName;
+        }
+        public string GetLastname()
+        {
+            return Lastname;
+        }
+        public void SetLastname(string lastName)
+        {
+            this.Lastname = lastName;
+        }
+        public string GetEmail()
+        {
+            return EmailAddress;
+        }
+        public void SetEmail(string email)
+        {
+            this.EmailAddress = email;
+        }
         public string GetUsername()
         {
             return Username;

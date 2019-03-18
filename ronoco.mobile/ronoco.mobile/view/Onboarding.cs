@@ -97,7 +97,7 @@ namespace ronoco.mobile.view
         private void SignUpEmailButton_Pressed(object sender, EventArgs e)
         {
             SignUpEmail emailPage = new SignUpEmail();
-            NavigationPage.SetHasNavigationBar(emailPage, false);
+            // NavigationPage.SetHasNavigationBar(emailPage, false);
 
             Navigation.PushAsync(emailPage);
         }

@@ -4,6 +4,7 @@ using ronoco.mobile.tests;
 using ronoco.mobile.viewmodel;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -51,11 +52,18 @@ namespace ronoco.mobile.view
             source = account.GetPolicies();
             _carouselView.ItemsSource = source;
             _carouselView.SelectedIndex = TappedIndex;
-            Title = "Policy";
             Content = _carouselView;
+
+            // topToolbar replaces NavigationBar
+            NavigationPage.SetTitleView(this, new PolicyView().TopToolbar);
 
             return this;
         }
         private View GetPolicyCard() => new PolicyView();
+
+        public void PlusMiniMenuButton_Clicked(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Under Construction!");
+        }
     }
 }

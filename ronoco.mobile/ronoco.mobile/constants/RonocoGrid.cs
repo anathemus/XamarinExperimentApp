@@ -11,7 +11,7 @@ namespace ronoco.mobile.constants
         {
             RowDefinitions =
             {
-                new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) },
+                // new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(34, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(27, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) },
@@ -32,7 +32,7 @@ namespace ronoco.mobile.constants
 
         };
 
-        public static Grid RonocoTopBottomToolbarsTabsGrid = new Grid
+        public static Grid RonocoBottomToolbarTabsGrid = new Grid
         {
             HorizontalOptions = LayoutOptions.FillAndExpand,
             VerticalOptions = LayoutOptions.FillAndExpand,
@@ -42,7 +42,6 @@ namespace ronoco.mobile.constants
 
             RowDefinitions =
             {
-                new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
                 new RowDefinition { Height = new GridLength(48, GridUnitType.Absolute) }
@@ -59,7 +58,6 @@ namespace ronoco.mobile.constants
         {
             RowDefinitions =
             {
-                new RowDefinition { Height = new GridLength(64, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
                 new RowDefinition { Height = new GridLength(72, GridUnitType.Absolute) },
                 new RowDefinition { Height = new GridLength(28, GridUnitType.Absolute) },
@@ -82,6 +80,31 @@ namespace ronoco.mobile.constants
 
             ColumnSpacing = 0,
             RowSpacing = 0
+        };
+
+        public Grid RonocoMenuGrid = new Grid
+        {
+            RowDefinitions =
+            {
+                new RowDefinition { Height = new GridLength(104, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(1, GridUnitType.Star) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) },
+                new RowDefinition { Height = new GridLength(40, GridUnitType.Absolute) }
+            },
+
+            ColumnDefinitions =
+            {
+                new ColumnDefinition { Width = new GridLength(56, GridUnitType.Absolute) },
+                new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }
+            }
         };
     }
 }

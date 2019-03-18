@@ -69,12 +69,15 @@ namespace ronoco.mobile.view
             Grid grid = constants.RonocoGrid.RonocoBackArrowGrid;
 
             grid.BackgroundColor = Color.White;
-            grid.Children.Add(toolbar, 0, 0);
-            Grid.SetColumnSpan(toolbar, 3);
-            grid.Children.Add(signUpTitle, 1, 1);
-            grid.Children.Add(emailEntry, 1, 3);
-            grid.Children.Add(passEntry, 1, 5);
-            grid.Children.Add(signUpSubmit, 1, 7);
+
+            // SetTitleView - Custom NavigationBar, SetHasBackButton to false so there aren't 2 back buttons.
+            NavigationPage.SetTitleView(this, toolbar);
+            NavigationPage.SetHasBackButton(this, false);
+
+            grid.Children.Add(signUpTitle, 1, 0);
+            grid.Children.Add(emailEntry, 1, 2);
+            grid.Children.Add(passEntry, 1, 4);
+            grid.Children.Add(signUpSubmit, 1, 6);
 
             Content = grid;
         }
@@ -84,11 +87,11 @@ namespace ronoco.mobile.view
             Navigation.PopAsync();
         }
 
-        private async void SignUpSubmit_Pressed(object sender, EventArgs e)
+        private void SignUpSubmit_Pressed(object sender, EventArgs e)
         {
-            PolicyListView listView = new PolicyListView();
+            MasterDetailPage policiesNav = new MasterDetailController();
 
-            await Navigation.PushAsync(listView);
+            App.Current.MainPage = policiesNav;
         }
     }
 }
